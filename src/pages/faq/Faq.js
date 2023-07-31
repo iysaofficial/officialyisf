@@ -264,7 +264,7 @@ const data3 = [
         no: "3",
         datatarget: "#faqCollapse-After-3",
         id: "faqCollapse-After-3",
-        question: "3When will the E-certificate be sent?",
+        question: "When will the E-certificate be sent?",
         answer:
             "IYSA DOES NOT send E-Certificates to National participants or Indonesian Participants who take part in online events. Online National Participants will only receive a certificate in printed/hard form which will later be sent along with the medals via the JNE expedition.",
     },
