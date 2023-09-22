@@ -1,32 +1,32 @@
 import { Link, Route, Routes } from "react-router-dom";
-import Navbar           from "./components/Navbar";
-import Footer           from "./components/Footer";
-import Home             from "./pages/Home";
-import About            from "./pages/About";
-import Contact          from "./pages/Contact";
-import NotFound         from "./pages/NotFound";
-import NewsRoutes       from "./NewsRoutes";
-import DocumentWritter  from "./pages/DocumentWritter";
-import Certificate      from "./pages/Certificate";
-import GuideBook        from "./components/GuideBook";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import NotFound from "./pages/NotFound";
+import NewsRoutes from "./NewsRoutes";
+import DocumentWritter from "./pages/DocumentWritter";
+import Certificate from "./pages/Certificate";
+import GuideBook from "./components/GuideBook";
 
 // Curation
-import Curation1        from "./pages/Curation1";
-import Curation3        from "./pages/crtn/Curation3";
-import Curation3_1      from "./pages/crtn/Curation3_1";
-import Curation4        from "./pages/crtn/Curation4";
-import Curation11       from "./pages/crtn/Curation11";
-import Curation16       from "./pages/crtn/Curation16";
+import Curation1 from "./pages/Curation1";
+import Curation3 from "./pages/crtn/Curation3";
+import Curation3_1 from "./pages/crtn/Curation3_1";
+import Curation4  from "./pages/crtn/Curation4";
+import Curation11 from "./pages/crtn/Curation11";
+import Curation16 from "./pages/crtn/Curation16";
 // EndCuration
 
 // FAQ
-import Faq              from "./pages/faq/Faq";
+import Faq from "./pages/faq/Faq";
 
 
 // Foto
-import G2021            from "./pages/gallery/G2021";
-import G2022            from "./pages/gallery/G2022";
-import G2023            from "./pages/gallery/G2023";
+import G2021 from "./pages/gallery/G2021";
+import G2022 from "./pages/gallery/G2022";
+import G2023 from "./pages/gallery/G2023";
 
 // End Foto
 
@@ -36,6 +36,8 @@ import V2022 from "./pages/video/V2022";
 // End Video
 
 // News
+import PageNewsList from "./pages/news/PageNewsList";
+import CompListNews from "./components/News/CompListNews";
 import News1 from "./pages/news/News1";
 import News2 from "./pages/news/News2";
 import News3 from "./pages/news/News3";
@@ -67,6 +69,8 @@ function App() {
           {/* End FAQ */}
 
           {/* News */}
+            <Route path="/PageNewsList" element={<PageNewsList />} />
+            <Route path="/CompListNews" element={<CompListNews />} />
             <Route path="/news1" element={<News1 />} />
             <Route path="/news2" element={<News2 />} />
             <Route path="/news3" element={<News3 />} />

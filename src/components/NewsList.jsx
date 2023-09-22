@@ -5,7 +5,6 @@ export default function NewsList(props) {
             <div className="card mr-3">
                 <div className="row no-gutters">
                     <div className="col-md-4">
-                        {/* <img src="images/team/news.jpg" className="img-fluid" alt="" /> */}
                         <img src={props.img} className="img-fluid" alt="" />
 
                     </div>

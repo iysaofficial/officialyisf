@@ -17,7 +17,7 @@ export default function Navbar() {
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="navbar-nav ml-auto">
 
-                                <li className="nav-item active">
+                                <li className="nav-item">
                                     <a className="nav-link" href="/">Home</a>
                                 </li>
                                 {/* <li className="nav-item dropdown @@pages">
@@ -39,7 +39,19 @@ export default function Navbar() {
                                 </li> */}
 
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/About">About YISF</a>
+                                    <a className="nav-link" href="/About">About</a>
+                                </li>
+                                <li className="nav-item dropdown @@MediaCoverage">
+                                    <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Media Coverage
+                                        <span>
+                                            <i className="ti-angle-down"></i>
+                                        </span>
+                                    </a>
+                                    <ul className="dropdown-menu">
+                                        <li>
+                                            <a className="dropdown-item" href="/PageNewsList">News</a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li className="nav-item dropdown @@Curation">
                                     <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Curation
@@ -47,12 +59,6 @@ export default function Navbar() {
                                             <i className="ti-angle-down"></i>
                                         </span>
                                     </a>
-                                    {/* <!-- Dropdown list --> */}
-                                    {/* <ul className="dropdown-menu">
-                                        <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/drive/folders/1WmX5U44vX02B0uK2BmER5yMQ4LAwVoWO?usp=sharing" target="_blank" >Curation 2022</a>
-                                        </li>
-                                    </ul> */}
                                     <ul className="dropdown-menu">
                                         <li>
                                             <a className="dropdown-item" href="https://drive.google.com/drive/folders/1WjGM5OSjP45zDteA25QGpzao6S2_up-K?usp=sharing" target="_blank" >Curation 2021</a>
@@ -115,9 +121,9 @@ export default function Navbar() {
                                     </a>
                                     {/* <!-- Dropdown list --> */}
                                     <ul className="dropdown-menu">
-                                        <li>
+                                        {/* <li>
                                             <a className="dropdown-item" href="https://drive.google.com/file/d/1HPiaUAl3iFBxHMJdPrd_dHIvoD7fEiIA/view?usp=drive_link" target="_blank" >List Finalist 2021</a>
-                                        </li>
+                                        </li> */}
                                         <li>
                                             <a className="dropdown-item" href="https://drive.google.com/file/d/12qBBGuwVnmt46IwSCNzNHJd7SzcheU59/view?usp=sharing" target="_blank" >List of Winner 2021</a>
                                         </li>

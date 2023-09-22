@@ -1,4 +1,7 @@
+import "../../components/css/News.css";
 import Footer from "../../components/Footer";
+import gambar from "../../Images/News/UDINUSSemarangTuanRumah.WebP"
+
 
 
 function News3() {
@@ -14,7 +17,7 @@ function News3() {
                                 {/* <!-- About Mockup --> */}
 
                                 {/* <div className="image-content" data-aos="fade-right"> */}
-                                    <img className="img-fluid" src="/images/team/news.jpg" alt="" />
+                                    <img className="img-fluid" src={gambar} alt="" />
                                 {/* </div> */}
 
                             </div>
@@ -25,40 +28,30 @@ function News3() {
                                     /* <!-- About Title --> */
                                 }
                                 
-                                    <h2><b>Fakultas Teknik Raih Triple Gold Medals di Youth International Science Fair </b></h2>
+                                    <h2><b>Udinus Invited to Host YNSF and YISF, Support Young Inventors from Various Countries</b></h2>
 
                                 {
                                     /* <!-- About Description --> */
                                 }
 
-                                    <p className="desc">Mahasiswa Fakultas Teknik Universitas Brawijaya (FT UB) kembali berprestasi di ajang internasional. Kali ini tiga tim berhasil meraih tiga Gold Medal di Youth International Science Fair (YISF) 2021 yang diselenggarakan pada (10/4-12/4/ 2021).
+                                    <p className="desc">- Dian Nuswantoro University (Udinus) Semarang was asked to host the Youth National Science Fair (YNSF) and Youth International Science Fair (YISF).The annual event has been going on since Monday (14/3/2022) and will end on Thursday (17/3/2022) in the Hall of Building E, 3rd Floor of Udinus.This event was attended by 502 teams from 22 countries in the world, ranging from elementary school (SD), junior high school (SMP), high school (SMA), vocational high school (SMK) and equivalent, to college.
                                     <br/><br/>
-                                    Rotation merupakan sebuah inovasi yang memanfaatkan reverse osmosis dan termoelektrik untuk mengonversi limbah panas industri menjadi energi listrik dan air bersih.                                    
+                                    Nursery of students since elementary school to engage in scientific activities aims to familiarize children with research or research.YNSF is a national-level project science competition attended by 50 teams from all over Indonesia.While YISF is a competition attended by 490 teams from various countries in the world.Unlike the previous year, this time the prestigious event is carried out in a mix that will be held simultaneously throughout the world.For offline activities, Udinus has the honor to host.The activity was opened with an Opening Ceremony marked by a gong blow and officially opened by Vice Rector I for Academic Affairs Prof. Dr. Supriadi Rustad M.Si.
+                                    <br/><br/>  
+                                    In his opening speech, Vice Rector I for Academic Affairs Udinus Prof. Dr. Supriadi Rustad, M.S., welcomed the participants of YNSF and YISF events.Udinus has prepared the best possible infrastructure and facilities so that the event which was attended by hundreds of participants from various countries could run smoothly. He revealed that the innovation produced by the participants became one of the keys to a better future.
                                     <br/><br/>
-                                    Tim kedua adalah tim yang diketuai oleh Yudika Putra Perdana Pangaribuan (TE’19). Yudika bersama tim membuat aplikasi Agricultural Expansion atau disingkat, Agri-X.                                    
+                                    "We hope that the young generation of the Indonesian nation will not stop innovating. With this event, they are increasingly encouraged and continue to be motivated to create something that is beneficial to the wider community," he explained.In this national and international scale event, Udinus has prepared a Live Judging session, later dozens of Udinus lecturers will be involved as judges. Furthermore, participants will gain new insights in the inventors Talk and Webinar sessions and will be closed with an Awarding Ceremony.Meanwhile, the President of the Indonesia Youth Science Association (IYSA), Deny Irawan, M.Pd., thanked Udinus
                                     <br/><br/>
-                                    AGRI-X diharapkan dapat menjadi aplikasi inovasi generasi milenial dalam meningkatkan kesejahteraan dan kapasitas petani dalam mendukung swasembada pangan di Indonesia.                                    
+                                    In his welcome speech in front of offline and online participants, he welcomed participants from various countries who participated in the YNSF and YISF events."We hope this event can be a forum for young innovations from various countries, who develop their innovations in the field of science," he hoped.As the host of an international event, Udinus has prepared strict health protocols. Various means to prevent the spread of the corona virus have also been carefully prepared.
+                                    <br/><br/>              
+                                    He also hopes that in the future this scientific competition can provide space for the results obtained and can collaborate with outside parties to mass produce the findings of the students.Udinus also alerted a Liaison Officer (LO) consisting of Udinus students to guide the participants in participating in the activity.Various performances from Udinus students were also displayed neatly to entertain the participants. The slick performance was presented by the Student Choir (PSM) Gita Dian Nuswa and Dance From Udinus (DFU).One of the participants from SMA N 5 South Bengkulu, Tri Bintang Pratitis, said that through this event he was motivated to create new innovations and achieve the best achievements.
+                                    <br/><br/>        
+                                    His team of five people will present innovations in the form of special ingredient soaps. He admitted that he was happy with the facilities provided by Udinus, as well as the good service."For us, this event is an opportunity to seek experience and relationships with fellow inventors. With activities that are packaged in a hybrid manner, we think the activities at Udinus can run smoothly," he concluded.
                                     <br/><br/>
-                                    Dalam pembuatan aplikasi ini Yudika bekerja sama dengan Cecilia Fauziah dan Anton Meilus Putra (Fakultas Pertanian), Rhobithotus Mufidah (Fakultas Perikanan dan Ilmu Kelautan), dan Rifqi Aqil Asyrof (Fakultas Ekonomi dan Bisnis).                                    
-                                    <br/><br/>
-                                    Tim ketiga diketuai Adrian Adam Indrabayu (TE’19). Bersama dengan tim ia membuat sistem fotosintesis buatan bernama Fetallic.                                    
-                                    <br/><br/>
-                                    Fetallic yang dibuat bersama empat rekannya, Yudika Putra PP (TE’19), Kenny Aldebaran Roberts (TE’19), Adita Aulia A Rachman (TE’19), dan Erina Azahra Amalia (Tekim’19), mampu mengurangi angka emisi karbondioksida bahkan mengubahnya menjadi energi listrik.                                    
-                                    <br/><br/>
-                                    Ketiga tim ini merupakan tim bimbingan salah satu dosen Teknik Elektro FT UB, Ir. Nurussa’adah M.T.
-                                    <br/><br/>
-                                    “Alhamdulillah ketiganya bisa berkiprah di ajang internasional. Semoga bisa terus berkarya, memberikan semangat dan motivasi bagi mahasiswa yang lain,” kata Sekretaris Jurusan Teknik elektro yang akrab disapa Bu Rosa ini.
-                                    <br/><br/>
-                                    YISF 2021 sendiri merupakan salah satu rangkaian kegiatan yang diadakan oleh Indonesian Young Scientist Association (IYSA) bekerja sama dengan BUCA IMSEF, Turkey, Malaysia Innovation Invention Creativity Association (MIICA), The Union of Arab Academics, Departemen Aktuaria Institut Teknologi Sepuluh Nopember, dan Science Hunter Indonesia.
-                                    <br/><br/>
-                                    Kompetisi yang mempertemukan ide-ide luar biasa dari berbagai negara ini memberikan pengalaman yang berharga bagi para pesertanya.
-                                    <br/><br/>
-                                    “Ini bukan pertama kalinya kami mengikuti kompetisi internasional, tapi atmosfer perlombaan masih terasa. Melihat ide-ide hebat barsama, membuat tim lebih bersemangat agar lebih maju. Semoga kedepan tim Legi Techno dapat berkembang menjadi sebuah startup,” kata Ihza, ketua Tim Legi Techno. (mic/Humas UB)
-                                    <br/><br/>
-                                    <b>Sumber: https://prasetya.ub.ac.id/fakultas-teknik-raih-triple-gold-medals-di-young-invention-scientific-fair-2021/</b>
-                                
-
+                                    The participants brought prototypes and research results to be presented and gave space to young researchers to present their work.Head of Udinus Student Affairs Bureau, Dr. Rindra Yusianto S.Kom., M.T., said that champions at the international level at the high school, vocational and equivalent levels have the opportunity to get scholarships from Udinus in all study programs at Udinus."We provide 100% scholarships for gold medals, 75% for silver medals, and 50% for bronze medals for Institutional Development Endowments," he added.This is the umpteenth international event in Udinus, but the first time for IYSA.
+                                    <br/>
                                     </p>
+                                    <p>Source : <a href="https://jateng.tribunnews.com/2022/03/17/udinus-didaulat-jadi-tuan-rumah-ynsf-dan-yisf-dukung-inventor-muda-dari-berbagai-negara?page=2." target="_blank">click here</a></p>
                                     
                                 </div>
 
