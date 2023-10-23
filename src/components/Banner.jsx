@@ -31,24 +31,6 @@ export default function Banner() {
                             <div className="col-md-6 order-2 order-md-1 text-center text-md-left">
                                 <h1 className="text-white mb-4 banner-txt">Comming Soon Youth International Science Fair 2024</h1>
                                 {/* <p className="text-white font-weight-light mb-5">(Open Registration)</p> */}
-                                
-                        {/* <div className="row">
-                            <div className="col-md-4">
-                                <ButtonItems 
-                                    text = "Registration"
-                                    class = " btn-banner btn-light"
-                                    link = "https://bit.ly/Registration-YISF2023"
-                                /> 
-                            </div> */}
-
-                        {/* <div className="col-md-4">
-                                <ButtonItems 
-                                    text = "Guide Book"
-                                    class = " btn-banner btn-light"
-                                    link = "/guidebook"
-                                /> 
-                            </div> */}
-                        {/* </div> */}
 
 
                             </div>
