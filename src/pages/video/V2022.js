@@ -1,4 +1,5 @@
 import Footer from "../../components/Footer";
+import PageTitle from "../../components/pagetitle/PageTitle";
 
 function V2022() {
 
@@ -13,15 +14,12 @@ function V2022() {
 
     return (
         <>
+        <PageTitle motherMenu="Video" activeMenu="" />
             <div className="section">
                 <div className="container-fluid">
                     <div className="col-md-12">
-                        <h1 className="text-center mb-5">2022</h1>
-
+                        <h1 className="text-center mb-5 fw-bold">2022</h1>
                         <div className="row">
-
-                           
-                            
                             <div className="col-md-12">
                                 <div className="row">
                                 {
@@ -29,19 +27,15 @@ function V2022() {
                                         return(
 
                                             <div className="col-md-3 mb-3">
-                                                <iframe src={Vid2022} style={{ width: '100%' }}></iframe>
+                                                <iframe className="" src={Vid2022} style={{ width: '100%', height: '200px'}}></iframe>
                                             </div>
 
                                         )
                                     })
-                                }
-                                    
+                                }      
                                 </div>
                             </div>
-                                
-
                         </div>
-
                     </div>
                 </div>
             </div>

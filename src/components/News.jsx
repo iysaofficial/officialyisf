@@ -9,6 +9,7 @@ export default function News() {
         <>
             <section class="section testimonial" id="testimonial">
                 <div class="container">
+                <h1 className="text-center fw-bold mb-5">NEWS</h1>
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="testimonial-slider owl-carousel owl-theme">

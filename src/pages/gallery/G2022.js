@@ -1,4 +1,5 @@
 import Footer from "../../components/Footer";
+import PageTitle from "../../components/pagetitle/PageTitle";
 
 function G2022() {
 
@@ -28,10 +29,11 @@ function G2022() {
 
     return (
         <>
+        <PageTitle motherMenu="Galeri" activeMenu="" />
             <div className="section">
                 <div className="container-fluid">
                     <div className="col-md-12">
-                        <h1 className="text-center">2022</h1>
+                        <h1 className="text-center fw-bold">2022</h1>
 
                         <div className="row">
 

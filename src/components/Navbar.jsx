@@ -86,13 +86,13 @@ export default function Navbar() {
 
                                             <ul className="dropdown-menu" aria-labelledby="dropdown0501">
                                                 <li>
-                                                    <a className="dropdown-item" href="/G2021"> 2021</a>
+                                                    <a className="dropdown-item" href="https://drive.google.com/drive/folders/1PPIfqv01uc_aCCpWO-nzwIF1rq9_Bvk9?usp=drive_link" target="_blank"> 2021</a>
                                                 </li>
                                                 <li>
-                                                    <a className="dropdown-item" href="/G2022"> 2022</a>
+                                                    <a className="dropdown-item" href="https://drive.google.com/drive/folders/1tDJHRUN6k0AQX_cG01zNlPUZXPrK5pRN?usp=drive_link" target="_blank"> 2022</a>
                                                 </li>
                                                 <li>
-                                                    <a className="dropdown-item" href="/G2023"> 2023</a>
+                                                    <a className="dropdown-item" href="https://drive.google.com/drive/folders/1DBhEkKvKIb85-D-7h3dN6xvymlDRYAFv?usp=drive_link" target="_blank"> 2023</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -107,6 +107,9 @@ export default function Navbar() {
                                                 </li>
                                                 <li>
                                                     <a className="dropdown-item" href="/V2022"> 2022</a>
+                                                </li>
+                                                <li>
+                                                    <a className="dropdown-item" href="/V2023"> 2023</a>
                                                 </li>
                                             </ul>
                                         </li>

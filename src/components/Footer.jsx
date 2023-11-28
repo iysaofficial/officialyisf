@@ -52,19 +52,16 @@ export default function Footer() {
                   {/* <!-- links --> */}
                   <ul>
                     <li>
-                      <a href="/G2021">Photo 2021</a>
+                      <a href="https://drive.google.com/drive/folders/1tDJHRUN6k0AQX_cG01zNlPUZXPrK5pRN?usp=drive_link">Photo 2022</a>
                     </li>
                     <li>
-                      <a href="/G2022">Photo 2022</a>
-                    </li>
-                    <li>
-                      <a href="/G2023">Photo 2023</a>
-                    </li>
-                    <li>
-                      <a href="/V2021">Video 2021</a>
+                      <a href="https://drive.google.com/drive/folders/1DBhEkKvKIb85-D-7h3dN6xvymlDRYAFv?usp=drive_link">Photo 2023</a>
                     </li>
                     <li>
                       <a href="/V2022">Video 2022</a>
+                    </li>
+                    <li>
+                      <a href="/V2023">Video 2023</a>
                     </li>
                     {/* <li><a href="/G2022">Video 2023</a></li> */}
                   </ul>

@@ -1,0 +1,9 @@
+.section .row .Logo-Support img{
+    width: 100%;
+}
+
+@media (max-width: 769px){
+    .section .row .Logo-Support img{
+        width: 75%;
+    }
+}

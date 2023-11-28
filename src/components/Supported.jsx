@@ -1,7 +1,8 @@
+import "./css/supported.css";
+
 export default function Supported() {
     const dataLogo = [
         "images/logo/iysa.png",
-        "images/logo/mahadewa.jpg",
         "images/logo/undip.png",
         "images/logo/buca.png",
     ]
@@ -15,8 +16,8 @@ export default function Supported() {
                             {
                                 dataLogo.map(function(ImgLogo) {
                                     return(
-                                        <div className="col-lg-3 col-md-4 mt-5 mt-md-0 text-center">
-                                            <img className="img-fluid col-md-8" src={ImgLogo} />
+                                        <div className="Logo-Support col-lg-4 col-md-4 mt-5 mt-md-0 text-center">
+                                            <img className=" col-md-8" src={ImgLogo} />
                                         </div>
                                     )
                                 }) 

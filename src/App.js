@@ -36,6 +36,7 @@ import G2023 from "./pages/gallery/G2023";
 // Video
 import V2021 from "./pages/video/V2021";
 import V2022 from "./pages/video/V2022";
+import V2023 from "./pages/video/V2023";
 // End Video
 
 // News
@@ -85,7 +86,8 @@ function App() {
 
         {/* Link Video */}
         <Route path="/V2021" element={<V2021 />} />
-        <Route path="/V2022" element={<V2022 />} />
+        <Route path="/V2022" element={<V2022 />} />X
+        <Route path="/V2023" element={<V2023 />} />X
         {/* End Link Video */}
 
         {/* Link Gallery Foto */}

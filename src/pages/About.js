@@ -26,7 +26,7 @@ function About() {
                 <div className="feature-content">
                   {/* <!-- About Title --> */}
 
-                  <h2>Youth International Science Fair (YISF) 2023 </h2>
+                  <h2>Youth International Science Fair (YISF) 2024 </h2>
 
                   {/* <!-- About Description --> */}
 
@@ -38,20 +38,10 @@ function About() {
                     the results.
                     <br />
                     <br />
-                    This event can be a place for creativity competition for
-                    Elementary, Secondary, University and Public. This event is
-                    expected to help evaluate the results of student research.
-                    Indonesian Young Scientist Association (IYSA) in
-                    collaboration with Universitas PGRI Mahadewa Bali, Faculty
-                    of Engineering Diponegoro University and BUCA IMSEF Turkey
-                    will hold the event “Youth International Science Fair
-                    (YISF).
+                    This event can be a place for creativity competitions for Elementary, Secondary, University, and Public (teachers, lecturers, researchers, companies, institutions, organizations). This event is expected to help evaluate the results of student research. Indonesian Young Scientist Association (IYSA) in collaboration with University Udayana Bali Faculty of Agriculture, University Diponegoro Faculty of Engineering, and BUCA IMSEF Turkey will hold the event “Youth International Science Fair (YISF).
                     <br />
                     <br />
-                    In 2022 YISF takes place online and offline, which is
-                    attended by 673 teams from 23 countries. The offline
-                    competition was held at Dian Nuswantoro University,
-                    Semarang.
+                    In 2023, YISF take place online and offline, which be attended by 285 online teams, and 75 offline teams from 30 countries. The offline competition was held in PGRI Mahadewa University, Bali.
                     <br />
                     <br />
                     For this year, YISF is back with the hope of being the right
