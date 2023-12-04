@@ -26,10 +26,10 @@ function About() {
                 <div className="feature-content">
                   {/* <!-- About Title --> */}
 
-                  <h2>Youth International Science Fair (YISF) 2024 </h2>
+                  <h2>Youth International Science Fair (YISF)</h2>
 
                   {/* <!-- About Description --> */}
-
+                  {/* University Udayana Bali Faculty of Agriculture,  */}
                   <p className="desc text-justify">
                     The number of creativity and idea development makes students
                     produce many products that are beneficial to society and the
@@ -38,7 +38,7 @@ function About() {
                     the results.
                     <br />
                     <br />
-                    This event can be a place for creativity competitions for Elementary, Secondary, University, and Public (teachers, lecturers, researchers, companies, institutions, organizations). This event is expected to help evaluate the results of student research. Indonesian Young Scientist Association (IYSA) in collaboration with University Udayana Bali Faculty of Agriculture, University Diponegoro Faculty of Engineering, and BUCA IMSEF Turkey will hold the event “Youth International Science Fair (YISF).
+                    This event can be a place for creativity competitions for Elementary, Secondary, University, and Public (teachers, lecturers, researchers, companies, institutions, organizations). This event is expected to help evaluate the results of student research. Indonesian Young Scientist Association (IYSA) in collaboration with University Diponegoro Faculty of Engineering, and BUCA IMSEF Turkey will hold the event “Youth International Science Fair (YISF).
                     <br />
                     <br />
                     In 2023, YISF take place online and offline, which be attended by 285 online teams, and 75 offline teams from 30 countries. The offline competition was held in PGRI Mahadewa University, Bali.

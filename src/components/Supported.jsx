@@ -6,7 +6,7 @@ export default function Supported() {
     ]
     const dataLogo2 = [
         "images/logo/undip.png",
-        "images/logo/Udayana.png",
+        // "images/logo/Udayana.png",
         "images/logo/buca.png",
     ]
     return (
