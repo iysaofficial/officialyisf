@@ -1,13 +1,87 @@
-.section .row .Logo-Support img{
+/* ###########################  */
+/* #### SECTION ORGANIZER ####  */
+/* ###########################  */
+
+.section-Organizer {
+    margin: 100px 0 0 0;
+}
+.section-Organizer .container .box {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.986) !important; 
+}
+
+.section-Organizer .row .Logo-Support img{
     width: 50%;
 }
 
-.section .row .logo-iysa img{
+.section-Organizer .row .logo-iysa img{
     width: 100%;
 }
 
+.section-Organizer .row{
+    display: flex;
+    justify-content: center; /* Rata tengah horizontal */
+    align-items: center;
+}   
+.section-Organizer .row .logo-teknikundip img{
+    width: 100% ;
+}
 @media (max-width: 769px){
-    .section .row .Logo-Support img{
+.section-Organizer .row .logo-teknikundip img{
+    width: 75% ;
+}
+}
+
+@media (max-width: 769px){
+    .section-Organizer .row .Logo-Support img{    
         width: 75%;
+    }
+}
+
+@media (max-width: 426px){
+    .section-Organizer .container h1{
+        font-size: 35px ;
+    }
+}
+/* ###########################  */
+/* #### SECTION SUPPORT ####  */
+/* ###########################  */
+
+.section-Supported {
+    margin: 100px 0 100px 0;
+}
+.section-Supported .container .box {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.986) !important; 
+}
+
+.section-Supported .row .Logo-newera img{
+    width: 50%;
+}
+
+.section-Supported .row .logo-miica img{
+    width: 100%;
+}
+
+.section-Supported .row{
+    display: flex;
+    justify-content: center; /* Rata tengah horizontal */
+    align-items: center;
+}   
+.section-Supported .row .logo-aktuaria img{
+    width: 50% ;
+}
+@media (max-width: 769px){
+.section-Supported .row .logo-aktuaria img{
+    width: 50% ;
+}
+}
+
+@media (max-width: 769px){
+    .section-Supported .row .Logo-newera img{    
+        width: 80%;
+    }
+}
+@media (max-width: 426px){
+    .section-Supported .container h1{
+        font-size: 35px ;
     }
 }
