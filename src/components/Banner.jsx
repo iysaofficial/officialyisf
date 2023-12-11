@@ -1,47 +1,137 @@
-import ButtonItems from "./ButtonItems";
-import "./css/Banner.css";
+import ButtonItems from './ButtonItems';
+import './css/Banner.css';
 
 export default function Banner() {
-    return (
-        <>
-            <div>
-                <section className="section gradient-banner">
-                    <div className="shapes-container">
-                        <div className="shape" data-aos="fade-down-left" data-aos-duration="1500" data-aos-delay="100"></div>
-                        <div className="shape" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100"></div>
-                        <div className="shape" data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="200"></div>
-                        <div className="shape" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"></div>
-                        <div className="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
-                        <div className="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
-                        <div className="shape" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300"></div>
-                        <div className="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="200"></div>
-                        <div className="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="100"></div>
-                        <div className="shape" data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="500"></div>
-                        <div className="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="200"></div>
-                        <div className="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="100"></div>
-                        <div className="shape" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0"></div>
-                        <div className="shape" data-aos="fade-down" data-aos-duration="500" data-aos-delay="0"></div>
-                        <div className="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="100"></div>
-                        <div className="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="0"></div>
-                    </div>
+  return (
+    <>
+      <div>
+        <section className="section gradient-banner">
+          <div className="shapes-container">
+            <div
+              className="shape"
+              data-aos="fade-down-left"
+              data-aos-duration="1500"
+              data-aos-delay="100"
+            ></div>
+            <div
+              className="shape"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            ></div>
+            <div
+              className="shape"
+              data-aos="fade-up-right"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            ></div>
+            <div
+              className="shape"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            ></div>
+            <div
+              className="shape"
+              data-aos="fade-down-left"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            ></div>
+            <div
+              className="shape"
+              data-aos="fade-down-left"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            ></div>
+            <div
+              className="shape"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="300"
+            ></div>
+            <div
+              className="shape"
+              data-aos="fade-down-right"
+              data-aos-duration="500"
+              data-aos-delay="200"
+            ></div>
+            <div
+              className="shape"
+              data-aos="fade-down-right"
+              data-aos-duration="500"
+              data-aos-delay="100"
+            ></div>
+            <div
+              className="shape"
+              data-aos="zoom-out"
+              data-aos-duration="2000"
+              data-aos-delay="500"
+            ></div>
+            <div
+              className="shape"
+              data-aos="fade-up-right"
+              data-aos-duration="500"
+              data-aos-delay="200"
+            ></div>
+            <div
+              className="shape"
+              data-aos="fade-down-left"
+              data-aos-duration="500"
+              data-aos-delay="100"
+            ></div>
+            <div
+              className="shape"
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-delay="0"
+            ></div>
+            <div
+              className="shape"
+              data-aos="fade-down"
+              data-aos-duration="500"
+              data-aos-delay="0"
+            ></div>
+            <div
+              className="shape"
+              data-aos="fade-up-right"
+              data-aos-duration="500"
+              data-aos-delay="100"
+            ></div>
+            <div
+              className="shape"
+              data-aos="fade-down-left"
+              data-aos-duration="500"
+              data-aos-delay="0"
+            ></div>
+          </div>
 
-                
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-md-6 order-2 order-md-1 text-center text-md-left">
-                                <h1 className="text-white mb-4 banner-txt">Coming Soon Youth International Science Fair 2024</h1>
-                                {/* <p className="text-white font-weight-light mb-5">(Open Registration)</p> */}
-
-
-                            </div>
-                            <div className="col-md-6 text-center order-1 order-md-2">
-                                <img className="img-fluid" src="images/banner/Banner_New.png" alt="screenshot" />
-                            </div>
-                        </div>
-                    </div>
-
-                </section>
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-md-6 order-2 order-md-1 text-center text-md-left">
+                <h1 className="text-white mb-4 banner-txt">
+                  Coming Soon Youth International Science Fair 2024
+                </h1>
+                {/* <p className="text-white font-weight-light mb-5">(Open Registration)</p> */}
+                <button className="ButtonItems">
+                  <a
+                    href="https://registrasi-yisf-2024.vercel.app"
+                    target="_blank"
+                  >
+                    Registration
+                  </a>
+                </button>
+              </div>
+              <div className="col-md-6 text-center order-1 order-md-2">
+                <img
+                  className="img-fluid"
+                  src="images/banner/Banner_New.png"
+                  alt="screenshot"
+                />
+              </div>
             </div>
-        </>
-    )
+          </div>
+        </section>
+      </div>
+    </>
+  );
 }
