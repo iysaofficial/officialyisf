@@ -124,7 +124,7 @@ export default function Banner() {
                                     <a class="btn"
                                     href="https://registrasi-yisf-2024.vercel.app/" target="_blank">Registration Here</a>
                                     <a class="btn"
-                                    href="https://drive.google.com/file/d/1dd8rlCt8DljBio4EXE9vTa-adSyE_Gdb/view?usp=sharing" target="_blank">Guide Book</a>
+                                    href="https://drive.google.com/file/d/1uPUqdiMdBrwy9nJc2HyxIZecMf5P0lxV/view?usp=sharing" target="_blank">Guide Book</a>
                                 </div>
               </div>
               <div className="col-md-6 text-center order-1 order-md-2">
