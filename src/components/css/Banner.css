@@ -9,3 +9,24 @@
     font-size: 20px;
     font-weight: bold;
 }
+
+.hero-btn .btn {
+    padding: 12px 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #f1f7fd;
+    background: #280ecf;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .hero-btn .btn:hover {
+    color: #343148;
+    background: #ffffff;
+  }
+  
+  .hero-btn .btn:first-child {
+    margin-right: 10px;
+  }
