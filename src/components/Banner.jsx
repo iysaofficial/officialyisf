@@ -122,7 +122,7 @@ export default function Banner() {
                 </button> */}
                 <div class="hero-btn">
                                     <a class="btn"
-                                    href="https://registrasi-yisf-2024.vercel.app/" target="_blank">Registration Here</a>
+                                    href="/" target="_blank">Close Registration</a>
                                     <a class="btn"
                                     href="https://drive.google.com/file/d/1uPUqdiMdBrwy9nJc2HyxIZecMf5P0lxV/view?usp=sharing" target="_blank">Guide Book</a>
                                 </div>
