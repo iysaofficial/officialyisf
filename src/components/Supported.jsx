@@ -36,6 +36,9 @@ export default function Supported() {
                             <div className="Logo-newera col-lg-4 col-md-4 mt-5 mt-lg-0">
                                 <img className="" src="images/logo/NWERA.png" />
                             </div>
+                            <div className="Logo-newera col-lg-4 col-md-4 mt-5 mt-lg-0">
+                                <img className="" src="images/logo/UNM.png" />
+                            </div>
                         </div>
                     </div>
                 </div>
