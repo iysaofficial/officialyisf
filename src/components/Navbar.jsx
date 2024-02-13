@@ -61,13 +61,13 @@ export default function Navbar() {
                                     </a>
                                     <ul className="dropdown-menu">
                                         <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/drive/folders/1WjGM5OSjP45zDteA25QGpzao6S2_up-K?usp=sharing" target="_blank" >Curation 2021</a>
+                                            <a className="dropdown-item" href="https://drive.google.com/drive/folders/1WmX5U44vX02B0uK2BmER5yMQ4LAwVoWO?usp=sharing" target="_blank" >Curation 2023</a>
                                         </li>
                                         <li>
                                             <a className="dropdown-item" href="https://drive.google.com/drive/folders/12tsviA3OntYF_wWU2U3cz8HnCOgJy4OY?usp=sharing" target="_blank" >Curation 2022</a>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/drive/folders/1WmX5U44vX02B0uK2BmER5yMQ4LAwVoWO?usp=sharing" target="_blank" >Curation 2023</a>
+                                            <a className="dropdown-item" href="https://drive.google.com/drive/folders/1WjGM5OSjP45zDteA25QGpzao6S2_up-K?usp=sharing" target="_blank" >Curation 2021</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -86,13 +86,13 @@ export default function Navbar() {
 
                                             <ul className="dropdown-menu" aria-labelledby="dropdown0501">
                                                 <li>
-                                                    <a className="dropdown-item" href="https://drive.google.com/drive/folders/1PPIfqv01uc_aCCpWO-nzwIF1rq9_Bvk9?usp=drive_link" target="_blank"> 2021</a>
+                                                    <a className="dropdown-item" href="https://drive.google.com/drive/folders/1DBhEkKvKIb85-D-7h3dN6xvymlDRYAFv?usp=drive_link" target="_blank"> 2023</a>
                                                 </li>
                                                 <li>
                                                     <a className="dropdown-item" href="https://drive.google.com/drive/folders/1tDJHRUN6k0AQX_cG01zNlPUZXPrK5pRN?usp=drive_link" target="_blank"> 2022</a>
                                                 </li>
                                                 <li>
-                                                    <a className="dropdown-item" href="https://drive.google.com/drive/folders/1DBhEkKvKIb85-D-7h3dN6xvymlDRYAFv?usp=drive_link" target="_blank"> 2023</a>
+                                                    <a className="dropdown-item" href="https://drive.google.com/drive/folders/1PPIfqv01uc_aCCpWO-nzwIF1rq9_Bvk9?usp=drive_link" target="_blank"> 2021</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -103,13 +103,13 @@ export default function Navbar() {
 
                                             <ul className="dropdown-menu" aria-labelledby="dropdown0501">
                                                 <li>
-                                                    <a className="dropdown-item" href="/V2021"> 2021</a>
+                                                    <a className="dropdown-item" href="/V2023"> 2023</a>
                                                 </li>
                                                 <li>
                                                     <a className="dropdown-item" href="/V2022"> 2022</a>
                                                 </li>
                                                 <li>
-                                                    <a className="dropdown-item" href="/V2023"> 2023</a>
+                                                    <a className="dropdown-item" href="/V2021"> 2021</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -128,13 +128,13 @@ export default function Navbar() {
                                             <a className="dropdown-item" href="https://drive.google.com/file/d/1HPiaUAl3iFBxHMJdPrd_dHIvoD7fEiIA/view?usp=drive_link" target="_blank" >List Finalist 2021</a>
                                         </li> */}
                                         <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/12qBBGuwVnmt46IwSCNzNHJd7SzcheU59/view?usp=sharing" target="_blank" >List of Winner 2021</a>
+                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1bQDSnHcLw3ClOa-UcwC3ZZBboHW1mZNC/view?usp=drive_link" target="_blank" >List of Winner 2023</a>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1AI9WIFZq9R_aPHzddfDs3gzmw-aZebt_/view?usp=sharing" target="_blank" >List of Winner 2022</a>
+                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1Go8pvv4h78iS2PepvW7V9zVETVWw1uqB/view?usp=drive_link" target="_blank" >List of Winner 2022</a>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1pmM-RuvrQ0_C3IGqEntU56xZ-xjnSDth/view?usp=sharing" target="_blank" >List of Winner 2023</a>
+                                            <a className="dropdown-item" href="https://drive.google.com/file/d/16ALhp77-Ci_uXHp5yKUSNXAI0hBapViZ/view?usp=drive_link" target="_blank" >List of Winner 2021</a>
                                         </li>
 
                                         {/* <li>
