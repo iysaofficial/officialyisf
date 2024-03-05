@@ -203,16 +203,8 @@ export default function Navbar() {
                                     {/* <!-- Dropdown list --> */}
                                     <ul className="dropdown-menu">
                                         <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/drive/folders/1e_Dviw-ne-7b8kDA9CFErqOXCMK7nlcV?usp=share_link" target="_blank" >Certificate supervisors</a>
+                                            <a className="dropdown-item" href="https://drive.google.com/drive/folders/1l1pbUOJHkPAQQfNzCmC_KJoL_ASfhSrw?usp=sharing" target="_blank" >Certificate supervisors</a>
                                         </li>
-
-                                        <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/drive/folders/1AEb6fgNAWCo-LH1jOlfWpMqLFkzqYwj5?usp=share_link" target="_blank" >Cerificate Webinar</a>
-                                        </li>
-
-
-
-
                                     </ul>
                                 </li>
                                 <li className="nav-item @@contact">
