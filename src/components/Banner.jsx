@@ -109,7 +109,7 @@ export default function Banner() {
             <div className="row align-items-center">
               <div className="col-md-6 order-2 order-md-1 text-center text-md-left">
                 <h1 className="text-white mb-4 banner-txt">
-                  Close Registration Youth International Science Fair 2024
+                  Coming Soon Youth International Science Fair 2025
                 </h1>
                 {/* <p className="text-white font-weight-light mb-5">(Close Registration)</p> */}
                 {/* <button className="ButtonItems">
@@ -121,8 +121,8 @@ export default function Banner() {
                   </a>
                 </button> */}
                 <div class="hero-btn">
-                  <a class="btn" href="/">
-                    Close Registration
+                  <a class="btn" >
+                    Coming Soon
                   </a>
                   <a
                     class="btn"

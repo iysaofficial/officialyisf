@@ -11,7 +11,6 @@ function Home() {
     return (
         <>
             <Banner />
-            
             <C_About  
                 desc = "2020 is a year full of surprises. How come? Since the beginning of 2020, the world has been shocked by the virus that causes a pandemic (Covid 19) until 2021, this has not ended yet. Departing from this phenomenon, all life in the world changes drastical- ly, starting from the way we socialize, transportation models, learning systems in schools, and many others. Schools change online, employees work from home, basic public transportation and facilities, and other changes. The point is this pandemic has changed the entire structure of our lives."
             />

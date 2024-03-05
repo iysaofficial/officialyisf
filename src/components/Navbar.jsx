@@ -124,9 +124,9 @@ export default function Navbar() {
                                     </a>
                                     {/* <!-- Dropdown list --> */}
                                     <ul className="dropdown-menu">
-                                        {/* <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1HPiaUAl3iFBxHMJdPrd_dHIvoD7fEiIA/view?usp=drive_link" target="_blank" >List Finalist 2021</a>
-                                        </li> */}
+                                        <li>
+                                            <a className="dropdown-item" href="https://drive.google.com/file/d/17HQaFG-O7PMcTwAunPUIRRu3s0-56IPr/view?usp=drive_link" target="_blank" >List of Winner 2024</a>
+                                        </li>
                                         <li>
                                             <a className="dropdown-item" href="https://drive.google.com/file/d/1bQDSnHcLw3ClOa-UcwC3ZZBboHW1mZNC/view?usp=drive_link" target="_blank" >List of Winner 2023</a>
                                         </li>

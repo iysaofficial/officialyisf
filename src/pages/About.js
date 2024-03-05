@@ -41,7 +41,7 @@ function About() {
                     This event can be a place for creativity competitions for Elementary, Secondary, University, and Public (teachers, lecturers, researchers, companies, institutions, organizations). This event is expected to help evaluate the results of student research. Indonesian Young Scientist Association (IYSA) in collaboration with University Diponegoro Faculty of Engineering, and BUCA IMSEF Turkey will hold the event “Youth International Science Fair (YISF).
                     <br />
                     <br />
-                    In 2023, YISF take place online and offline, which be attended by 285 online teams, and 75 offline teams from 30 countries. The offline competition was held in PGRI Mahadewa University, Bali.
+                    In 2024, YISF take place online and offline, which be attended by 371 online teams, and 111 offline teams from 17 countries. The offline competition was held in Malang Creative Center , Malang.
                     <br />
                     <br />
                     For this year, YISF is back with the hope of being the right
