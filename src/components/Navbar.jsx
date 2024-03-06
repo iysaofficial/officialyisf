@@ -51,6 +51,9 @@ export default function Navbar() {
                                         <li>
                                             <a className="dropdown-item" href="/PageNewsList">News</a>
                                         </li>
+                                        <li>
+                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1VMMP1vwq2f0mMrnuUHWoJHItQc6ly-Fl/view?usp=sharing" target="_blank">Press Release 2024</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li className="nav-item dropdown @@Curation">
@@ -60,6 +63,9 @@ export default function Navbar() {
                                         </span>
                                     </a>
                                     <ul className="dropdown-menu">
+                                        <li>
+                                            <a className="dropdown-item" href="https://drive.google.com/drive/folders/14Q1z8L0Vi4SYGyQdALpmlcEjG2O7k84e?usp=sharing" target="_blank" >Curation 2024</a>
+                                        </li>
                                         <li>
                                             <a className="dropdown-item" href="https://drive.google.com/drive/folders/1WmX5U44vX02B0uK2BmER5yMQ4LAwVoWO?usp=sharing" target="_blank" >Curation 2023</a>
                                         </li>
