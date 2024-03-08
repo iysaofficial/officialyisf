@@ -92,6 +92,9 @@ export default function Navbar() {
 
                                             <ul className="dropdown-menu" aria-labelledby="dropdown0501">
                                                 <li>
+                                                    <a className="dropdown-item" href="https://drive.google.com/drive/folders/1XI9bn_oR9Q0yD_0cueLkPsR6fRdF0NRy?usp=sharing" target="_blank"> 2024</a>
+                                                </li>
+                                                <li>
                                                     <a className="dropdown-item" href="https://drive.google.com/drive/folders/1DBhEkKvKIb85-D-7h3dN6xvymlDRYAFv?usp=drive_link" target="_blank"> 2023</a>
                                                 </li>
                                                 <li>
@@ -108,6 +111,9 @@ export default function Navbar() {
                                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Video</a>
 
                                             <ul className="dropdown-menu" aria-labelledby="dropdown0501">
+                                                <li>
+                                                    <a className="dropdown-item" href="/V2024"> 2024</a>
+                                                </li>
                                                 <li>
                                                     <a className="dropdown-item" href="/V2023"> 2023</a>
                                                 </li>
