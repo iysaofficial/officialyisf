@@ -82,7 +82,7 @@ class CompListNews extends Component {
                   ></img>
                   <div class="card-body">
                     <h5 class="card-title">
-                      <a href="/news3">
+                      <a href="/news6">
                         Keren, 5 Siswa SMA Negeri 4 Denpasar Raih penghargaan
                         “Best Poster” dan “Gold Medali” Innovation Science YISF 2024
                       </a>
@@ -115,7 +115,7 @@ class CompListNews extends Component {
                   ></img>
                   <div class="card-body">
                     <h5 class="card-title">
-                      <a href="/news4">
+                      <a href="/news7">
                         Inovasi Irovit Bites Menangkan SMAN 1 Denpasar di YISF
                         2024
                       </a>
