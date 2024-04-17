@@ -48,6 +48,9 @@ import News2 from "./pages/news/News2";
 import News3 from "./pages/news/News3";
 import News4 from "./pages/news/News4";
 import News5 from "./pages/news/News5";
+import News6 from "./pages/news/News6";
+import News7 from "./pages/news/News7";
+
 // End News
 function App() {
   return (
@@ -83,6 +86,8 @@ function App() {
         <Route path="/news3" element={<News3 />} />
         <Route path="/news4" element={<News4 />} />
         <Route path="/news5" element={<News5 />} />
+        <Route path="/news6" element={<News6 />} />
+        <Route path="/news7" element={<News7 />} />
         {/* End News */}
 
         {/* Link Video */}
