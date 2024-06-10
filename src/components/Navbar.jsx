@@ -77,6 +77,22 @@ export default function Navbar() {
                                         </li>
                                     </ul>
                                 </li>
+                                <li className="nav-item @@low">
+                                    <a className="nav-link" href="/lowtahun">List of Winners</a>
+                                </li>
+                                <li className="nav-item dropdown @@certificate">
+                                    <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Certificate
+                                        <span>
+                                            <i className="ti-angle-down"></i>
+                                        </span>
+                                    </a>
+                                    {/* <!-- Dropdown list --> */}
+                                    <ul className="dropdown-menu">
+                                        <li>
+                                            <a className="dropdown-item" href="https://drive.google.com/drive/folders/1l1pbUOJHkPAQQfNzCmC_KJoL_ASfhSrw?usp=sharing" target="_blank" rel="noreferrer" >Certificate supervisors</a>
+                                        </li>
+                                    </ul>
+                                </li>
                                 <li className="nav-item dropdown @@gallery">
                                     <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Gallery
                                         <span>
@@ -128,51 +144,13 @@ export default function Navbar() {
 
                                     </ul>
                                 </li>
-                                <li className="nav-item dropdown @@finalresult">
-                                    <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> List of Winner
-                                        <span>
-                                            <i className="ti-angle-down"></i>
-                                        </span>
-                                    </a>
-                                    {/* <!-- Dropdown list --> */}
-                                    <ul className="dropdown-menu">
-                                        <li>
-                                            <a className="dropdown-item" href="" target="_blank" rel="noreferrer" >List of Winner 2024</a>
-                                        </li>
-                                        <li>
-                                            <a className="dropdown-item" href="" target="_blank" rel="noreferrer" >List of Winner 2023</a>
-                                        </li>
-                                        <li>
-                                            <a className="dropdown-item" href="" target="_blank" rel="noreferrer" >List of Winner 2022</a>
-                                        </li>
-                                        <li>
-                                            <a className="dropdown-item" href="" target="_blank" rel="noreferrer" >List of Winner 2021</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li className="nav-item dropdown @@certificate">
-                                    <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Certificate
-                                        <span>
-                                            <i className="ti-angle-down"></i>
-                                        </span>
-                                    </a>
-                                    {/* <!-- Dropdown list --> */}
-                                    <ul className="dropdown-menu">
-                                        <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/drive/folders/1l1pbUOJHkPAQQfNzCmC_KJoL_ASfhSrw?usp=sharing" target="_blank" rel="noreferrer" >Certificate supervisors</a>
-                                        </li>
-                                    </ul>
-                                </li>
                                 <li className="nav-item @@contact">
                                     <a className="nav-link" href="/contact">Contact</a>
                                 </li>
                                 <li className="nav-item @@faq">
                                     <a className="nav-link" href="/faq">Faq</a>
                                 </li>
-                                <li className="nav-item @@faq">
-                                    <a className="nav-link" href="/lowtahun">LoW</a>
-                                </li>
-
+                                
                             </ul>
                         </div>
                     </div>
