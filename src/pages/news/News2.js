@@ -1,6 +1,5 @@
 import "../../components/css/News.css";
 import PageTitleNews from "../../components/pagetitle/PageTitleNews";
-import Footer from "../../components/Footer";
 import gambar from "../../Images/News/GuruMuda.WebP";
 
 function News2() {
@@ -136,6 +135,7 @@ function News2() {
                     <a
                       href="https://berau.prokal.co/read/news/73685-guru-muda-dari-pelosok-kalteng-raih-prestasi-di-yisf-bali.html"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       click here
                     </a>
@@ -146,8 +146,6 @@ function News2() {
           </div>
         </section>
       </div>
-
-      <Footer />
     </>
   );
 }

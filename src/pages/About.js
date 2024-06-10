@@ -1,6 +1,5 @@
 // import C_About from "../components/C_About";
 import PageTitle from "../components/pagetitle/PageTitle";
-import Footer from "../components/Footer";
 
 function About() {
   return (
@@ -38,10 +37,21 @@ function About() {
                     the results.
                     <br />
                     <br />
-                    This event can be a place for creativity competitions for Elementary, Secondary, University, and Public (teachers, lecturers, researchers, companies, institutions, organizations). This event is expected to help evaluate the results of student research. Indonesian Young Scientist Association (IYSA) in collaboration with University Diponegoro Faculty of Engineering, and BUCA IMSEF Turkey will hold the event “Youth International Science Fair (YISF).
+                    This event can be a place for creativity competitions for
+                    Elementary, Secondary, University, and Public (teachers,
+                    lecturers, researchers, companies, institutions,
+                    organizations). This event is expected to help evaluate the
+                    results of student research. Indonesian Young Scientist
+                    Association (IYSA) in collaboration with University
+                    Diponegoro Faculty of Engineering, and BUCA IMSEF Turkey
+                    will hold the event “Youth International Science Fair
+                    (YISF).
                     <br />
                     <br />
-                    In 2024, YISF take place online and offline, which be attended by 371 online teams, and 111 offline teams from 17 countries. The offline competition was held in Malang Creative Center , Malang.
+                    In 2024, YISF take place online and offline, which be
+                    attended by 371 online teams, and 111 offline teams from 17
+                    countries. The offline competition was held in Malang
+                    Creative Center , Malang.
                     <br />
                     <br />
                     For this year, YISF is back with the hope of being the right
@@ -54,8 +64,6 @@ function About() {
           </div>
         </section>
       </div>
-
-      <Footer />
     </>
   );
 }

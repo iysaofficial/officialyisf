@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { Link, Outlet } from 'react-router-dom';
 
 export default function NewsLayouts() {
-    const [number, setNumber] = useState("");
     return (
         <>
             <Link to="/newslist/1">News 1</Link>   

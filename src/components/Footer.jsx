@@ -21,7 +21,7 @@ export default function Footer() {
                     <li class="list-inline-item">
                       <a
                         href="https://www.facebook.com/iysa.ina.5/"
-                        target="_blank"
+                        target="_blank" rel="noreferrer"
                       >
                         <i class="ti-facebook"></i>
                       </a>
@@ -29,7 +29,7 @@ export default function Footer() {
                     <li class="list-inline-item">
                       <a
                         href="https://www.youtube.com/channel/UC6-Hq4AnYbwiQWz7XemEwKw"
-                        target="_blank"
+                        target="_blank" rel="noreferrer"
                       >
                         <i class="ti-youtube"></i>
                       </a>
@@ -37,7 +37,7 @@ export default function Footer() {
                     <li class="list-inline-item">
                       <a
                         href="https://www.instagram.com/iysa_official/"
-                        target="_blank"
+                        target="_blank" rel="noreferrer"
                       >
                         <i class="ti-instagram"></i>
                       </a>

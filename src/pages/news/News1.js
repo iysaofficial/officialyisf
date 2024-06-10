@@ -1,6 +1,5 @@
 import "../../components/css/News.css";
 import PageTitleNews from "../../components/pagetitle/PageTitleNews";
-import Footer from "../../components/Footer";
 import gambar1 from "../../Images/News/PenelitiSMAMuhammadiyah.WebP";
 
 function News1() {
@@ -78,6 +77,7 @@ function News1() {
                     <a
                       href="https://www.kompasiana.com/dikdasmenpwmdiy/640ecb1b3555e467503dcf64/siswa-sma-muhiba-yogyakarta-sabet-medali-silver-pada-ajang-internasional-yisf-2023"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       click here
                     </a>
@@ -88,8 +88,6 @@ function News1() {
           </div>
         </section>
       </div>
-
-      <Footer />
     </>
   );
 }

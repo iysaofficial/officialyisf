@@ -10,13 +10,13 @@ export default function Supported() {
                     <div className="box p-3 bg-white">
                         <div className="row text-center mx-auto">
                             <div className="logo-iysa col-lg-4 col-md-4 mt-5 mt-lg-0">
-                                <img className="" src="images/logo/iysa.png" />
+                                <img className="" src="images/logo/iysa.png" alt=""/>
                             </div>
                             <div className="logo-teknikundip col-lg-4 mt-5 mt-lg-0 text-center">
-                                <img className="" src="images/logo/TeknikUNDIP.WebP" />
+                                <img className="" src="images/logo/TeknikUNDIP.WebP" alt=""/>
                             </div>
                             <div className="Logo-Support col-lg-4 col-md-4 mt-5 mt-lg-0">
-                                <img className="" src="images/logo/buca.png" />
+                                <img className="" src="images/logo/buca.png" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -28,16 +28,16 @@ export default function Supported() {
                     <div className="box p-3 bg-white">
                         <div className="row text-center mx-auto">
                             <div className="logo-miica col-lg-4 col-md-4 mt-5 mt-lg-0">
-                                <img className="" src="images/logo/miica.png" />
+                                <img className="" src="images/logo/miica.png" alt=""/>
                             </div>
                             <div className="logo-aktuaria col-lg-4 mt-5 mt-lg-0 text-center">
-                                <img className="" src="images/logo/LogoAKTUARIA.png" />
+                                <img className="" src="images/logo/LogoAKTUARIA.png" alt=""/>
                             </div>
                             <div className="Logo-newera col-lg-4 col-md-4 mt-5 mt-lg-0">
-                                <img className="" src="images/logo/NWERA.png" />
+                                <img className="" src="images/logo/NWERA.png" alt=""/>
                             </div>
                             <div className="Logo-newera col-lg-4 col-md-4 mt-5 mt-lg-0">
-                                <img className="" src="images/logo/UNM.png" />
+                                <img className="" src="images/logo/UNM.png" alt=""/>
                             </div>
                         </div>
                     </div>

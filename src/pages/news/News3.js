@@ -1,6 +1,5 @@
 import "../../components/css/News.css";
 import PageTitleNews from "../../components/pagetitle/PageTitleNews";
-import Footer from "../../components/Footer";
 import gambar from "../../Images/News/UDINUSSemarangTuanRumah.WebP";
 
 function News3() {
@@ -134,6 +133,7 @@ function News3() {
                     <a
                       href="https://jateng.tribunnews.com/2022/03/17/udinus-didaulat-jadi-tuan-rumah-ynsf-dan-yisf-dukung-inventor-muda-dari-berbagai-negara?page=2."
                       target="_blank"
+                      rel="noreferrer"
                     >
                       click here
                     </a>
@@ -144,8 +144,6 @@ function News3() {
           </div>
         </section>
       </div>
-
-      <Footer />
     </>
   );
 }

@@ -1,5 +1,4 @@
 import CurationNavbar from "../components/CurationNavbar"
-import Footer from "../components/Footer";
 
 function Curation1()
 {
@@ -43,7 +42,7 @@ function Curation1()
                                         return(
                                             <div className="col-md-3">
                                                 <div className="card">
-                                                    <img src={Img1}></img>
+                                                    <img src={Img1} alt=""></img>
                                                 </div>
                                             </div>
                                         )
@@ -57,9 +56,6 @@ function Curation1()
 
                     </div>
                 </div>
-            </div>
-            <div className="mt-5">
-                <Footer />
             </div>
         </>
     )

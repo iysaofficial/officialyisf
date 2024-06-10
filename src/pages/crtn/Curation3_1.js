@@ -38,7 +38,7 @@ export default function Curation3_1()
                                         return(
                                             <div className="col-md-3">
                                                 <div className="card">
-                                                    <img src={Img1}></img>
+                                                    <img src={Img1} alt=""></img>
                                                 </div>
                                             </div>
                                         )

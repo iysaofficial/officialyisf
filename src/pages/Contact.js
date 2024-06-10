@@ -1,6 +1,5 @@
 import "../components/css/Contact.css";
 import PageTitle from "../components/pagetitle/PageTitle";
-import Footer from "../components/Footer";
 
 export default function Contact() {
   return (
@@ -14,6 +13,7 @@ export default function Contact() {
                 <img
                   src="images/vektor/mechanis3.png"
                   className="img-fluid"
+                  alt=""
                 ></img>
               </div>
 
@@ -62,8 +62,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 }

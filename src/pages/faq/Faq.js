@@ -133,7 +133,6 @@ export default function Faq() {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 }

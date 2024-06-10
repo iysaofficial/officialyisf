@@ -1,6 +1,3 @@
-import Footer from "../../components/Footer";
-
-
 function News5() {
     return (
         <>
@@ -54,10 +51,6 @@ function News5() {
                 </section>
 
             </div>
-
-            <Footer />
-
-
         </>
     )
 }

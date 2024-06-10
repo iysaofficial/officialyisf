@@ -51,6 +51,11 @@ import News5 from "./pages/news/News5";
 import News6 from "./pages/news/News6";
 import News7 from "./pages/news/News7";
 
+import Lowtahun from "./pages/low/lowtahun";
+import Kategori24 from "./pages/low/2024/kategori24";
+import Jenjangofl24 from "./pages/low/2024/jenjangofl24";
+import Jenjangonl24 from "./pages/low/2024/jenjangonl24";
+
 // End News
 function App() {
   return (
@@ -97,6 +102,13 @@ function App() {
         <Route path="/V2024" element={<V2024 />} />
         {/* End Link Video */}
 
+        {/* List of Winners start */}
+        <Route path="/lowtahun" element={<Lowtahun />} />
+        <Route path="/kategori24" element={<Kategori24 />} />
+        <Route path="/jenjangonl24" element={<Jenjangonl24 />} />
+        <Route path="/jenjangofl24" element={<Jenjangofl24 />} />
+        {/* List of Winners End*/}
+
         {/* Link Gallery Foto */}
         <Route path="/G2021" element={<G2021 />} />
         <Route path="/G2022" element={<G2022 />} />
@@ -110,6 +122,7 @@ function App() {
         <Route path="/newslist/*" element={<NewsRoutes />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </>
   );
 }

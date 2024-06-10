@@ -2,7 +2,6 @@ import { Routes, Route } from 'react-router-dom';
 import NewsLayouts from './NewsLayouts';
 import NewsList from "./pages/NewsList";
 import News from "./pages/News";
-import NewsNew from "./pages/NewsNew";
 
 function NewsRoutes() {
     return (

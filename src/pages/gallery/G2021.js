@@ -43,7 +43,7 @@ function G2021() {
                                     return(
                                         <div className="col-md-2 mt-3">
                                             <div className="card">
-                                                <img className="" src={Gimg22}></img>
+                                                <img className="" src={Gimg22} alt=""></img>
                                             </div>
                                         </div>
                                     )
@@ -57,8 +57,6 @@ function G2021() {
                     </div>
                 </div>
             </div>
-            <Footer />
-
         </>
     )
 }

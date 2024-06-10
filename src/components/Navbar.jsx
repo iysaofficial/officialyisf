@@ -52,7 +52,7 @@ export default function Navbar() {
                                             <a className="dropdown-item" href="/PageNewsList">News</a>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1VMMP1vwq2f0mMrnuUHWoJHItQc6ly-Fl/view?usp=sharing" target="_blank">Press Release 2024</a>
+                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1VMMP1vwq2f0mMrnuUHWoJHItQc6ly-Fl/view?usp=sharing" target="_blank" rel="noreferrer" >Press Release 2024</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -64,16 +64,16 @@ export default function Navbar() {
                                     </a>
                                     <ul className="dropdown-menu">
                                         <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/drive/folders/14Q1z8L0Vi4SYGyQdALpmlcEjG2O7k84e?usp=sharing" target="_blank" >Curation 2024</a>
+                                            <a className="dropdown-item" href="https://drive.google.com/drive/folders/14Q1z8L0Vi4SYGyQdALpmlcEjG2O7k84e?usp=sharing" target="_blank" rel="noreferrer" >Curation 2024</a>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/drive/folders/1WmX5U44vX02B0uK2BmER5yMQ4LAwVoWO?usp=sharing" target="_blank" >Curation 2023</a>
+                                            <a className="dropdown-item" href="https://drive.google.com/drive/folders/1WmX5U44vX02B0uK2BmER5yMQ4LAwVoWO?usp=sharing" target="_blank" rel="noreferrer" >Curation 2023</a>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/drive/folders/12tsviA3OntYF_wWU2U3cz8HnCOgJy4OY?usp=sharing" target="_blank" >Curation 2022</a>
+                                            <a className="dropdown-item" href="https://drive.google.com/drive/folders/12tsviA3OntYF_wWU2U3cz8HnCOgJy4OY?usp=sharing" target="_blank" rel="noreferrer" >Curation 2022</a>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/drive/folders/1WjGM5OSjP45zDteA25QGpzao6S2_up-K?usp=sharing" target="_blank" >Curation 2021</a>
+                                            <a className="dropdown-item" href="https://drive.google.com/drive/folders/1WjGM5OSjP45zDteA25QGpzao6S2_up-K?usp=sharing" target="_blank" rel="noreferrer" >Curation 2021</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -92,16 +92,16 @@ export default function Navbar() {
 
                                             <ul className="dropdown-menu" aria-labelledby="dropdown0501">
                                                 <li>
-                                                    <a className="dropdown-item" href="https://drive.google.com/drive/folders/1XI9bn_oR9Q0yD_0cueLkPsR6fRdF0NRy?usp=sharing" target="_blank"> 2024</a>
+                                                    <a className="dropdown-item" href="https://drive.google.com/drive/folders/1XI9bn_oR9Q0yD_0cueLkPsR6fRdF0NRy?usp=sharing" target="_blank" rel="noreferrer"> 2024</a>
                                                 </li>
                                                 <li>
-                                                    <a className="dropdown-item" href="https://drive.google.com/drive/folders/1DBhEkKvKIb85-D-7h3dN6xvymlDRYAFv?usp=drive_link" target="_blank"> 2023</a>
+                                                    <a className="dropdown-item" href="https://drive.google.com/drive/folders/1DBhEkKvKIb85-D-7h3dN6xvymlDRYAFv?usp=drive_link" target="_blank" rel="noreferrer"> 2023</a>
                                                 </li>
                                                 <li>
-                                                    <a className="dropdown-item" href="https://drive.google.com/drive/folders/1tDJHRUN6k0AQX_cG01zNlPUZXPrK5pRN?usp=drive_link" target="_blank"> 2022</a>
+                                                    <a className="dropdown-item" href="https://drive.google.com/drive/folders/1tDJHRUN6k0AQX_cG01zNlPUZXPrK5pRN?usp=drive_link" target="_blank" rel="noreferrer"> 2022</a>
                                                 </li>
                                                 <li>
-                                                    <a className="dropdown-item" href="https://drive.google.com/drive/folders/1PPIfqv01uc_aCCpWO-nzwIF1rq9_Bvk9?usp=drive_link" target="_blank"> 2021</a>
+                                                    <a className="dropdown-item" href="https://drive.google.com/drive/folders/1PPIfqv01uc_aCCpWO-nzwIF1rq9_Bvk9?usp=drive_link" target="_blank" rel="noreferrer"> 2021</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -137,73 +137,17 @@ export default function Navbar() {
                                     {/* <!-- Dropdown list --> */}
                                     <ul className="dropdown-menu">
                                         <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/17HQaFG-O7PMcTwAunPUIRRu3s0-56IPr/view?usp=drive_link" target="_blank" >List of Winner 2024</a>
+                                            <a className="dropdown-item" href="" target="_blank" rel="noreferrer" >List of Winner 2024</a>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1bQDSnHcLw3ClOa-UcwC3ZZBboHW1mZNC/view?usp=drive_link" target="_blank" >List of Winner 2023</a>
+                                            <a className="dropdown-item" href="" target="_blank" rel="noreferrer" >List of Winner 2023</a>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1Go8pvv4h78iS2PepvW7V9zVETVWw1uqB/view?usp=drive_link" target="_blank" >List of Winner 2022</a>
+                                            <a className="dropdown-item" href="" target="_blank" rel="noreferrer" >List of Winner 2022</a>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/16ALhp77-Ci_uXHp5yKUSNXAI0hBapViZ/view?usp=drive_link" target="_blank" >List of Winner 2021</a>
+                                            <a className="dropdown-item" href="" target="_blank" rel="noreferrer" >List of Winner 2021</a>
                                         </li>
-
-                                        {/* <li>
-                                            <a className="dropdown-item" href="/certificate">Certificate Supervisor</a>
-                                        </li> */}
-                                        {/* <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1b1rjIcZ7ezfvXKFMUU3M3Ss-88MwtzqM/view?usp=share_link">Undip SA</a>
-                                        </li> */}
-
-                                        {/* <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1SBHFPWlQqSGymv-vdDWHPp1ZhqWpEwB9/view?usp=share_link">Social Science Category</a>
-                                        </li> */}
-
-                                        {/* <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1KqSRlmah-pY-f0EVb0xR69XtNTUHYsy9/view?usp=share_link">Life Sciences Category</a>
-                                        </li> */}
-                                        {/* <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1eeOq6zDzJFmML4aKumdrZKFNDucgkYnX/view?usp=share_link">Road To IFEST</a>
-                                        </li>
-                                        <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1Y47quiAj_yC067d7qEg5hoCaAXB1MQam/view?usp=share_link">MYSO SA </a>
-                                        </li>
-                                        <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1_tppS_UFa_dvzPrsbA8KKgHnNm14wIQi/view?usp=share_link"> MIICA SA</a>
-                                        </li>
-                                        <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1_qSq8hu2VM60QS2NQHhZuM6lMax2R-YJ/view?usp=share_link">IYSA SGA</a>
-                                        </li>
-                                        <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1_qSq8hu2VM60QS2NQHhZuM6lMax2R-YJ/view?usp=share_link">IYSA SA</a>
-                                        </li>
-                                        <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/18CPQXCw7rhPQGZM6SlyGEEna7YA_98MY/view?usp=share_link">IYSA GA</a>
-                                        </li> */}
-                                        {/* <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1QvahlcvKWdgskUwePNl5b-p4oc5MPa6b/view?usp=share_link">Innovation Sciences Category</a>
-                                        </li>
-                                        <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1vgZfhOM8B347Yw7ZcldxvYYSOE-NbPnL/view?usp=share_link">Environmental Sciencs Category Supervisor</a>
-                                        </li> */}
-                                        {/* <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/18x0EiIEM62bIjHAY99F8lQpaHTHhB9l4/view?usp=share_link"> Engineering</a>
-                                        </li> */}
-                                        {/* <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/17w6EaNcTxV-7aRapnkUH_oCTwuIGrNjE/view?usp=share_link">Cash Prize</a>
-                                        </li>
-                                        <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1-4-eqdw9pEEnOfdwyDO2NwCWI1ij10dF/view?usp=share_link">BUCA SA</a>
-                                        </li>
-                                        <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1FnuQYP6q7pNQHsbKWPIl16ZaMtmHEe4a/view?usp=share_link">Best Presentation</a>
-                                        </li>
-                                        <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1YvZXkg7XWNtikxzCfkuPNOY7Nw-TT6n0/view?usp=share_link">Best Booth</a>
-                                        </li> */}
-
-
                                     </ul>
                                 </li>
                                 <li className="nav-item dropdown @@certificate">
@@ -215,7 +159,7 @@ export default function Navbar() {
                                     {/* <!-- Dropdown list --> */}
                                     <ul className="dropdown-menu">
                                         <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/drive/folders/1l1pbUOJHkPAQQfNzCmC_KJoL_ASfhSrw?usp=sharing" target="_blank" >Certificate supervisors</a>
+                                            <a className="dropdown-item" href="https://drive.google.com/drive/folders/1l1pbUOJHkPAQQfNzCmC_KJoL_ASfhSrw?usp=sharing" target="_blank" rel="noreferrer" >Certificate supervisors</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -224,6 +168,9 @@ export default function Navbar() {
                                 </li>
                                 <li className="nav-item @@faq">
                                     <a className="nav-link" href="/faq">Faq</a>
+                                </li>
+                                <li className="nav-item @@faq">
+                                    <a className="nav-link" href="/lowtahun">LoW</a>
                                 </li>
 
                             </ul>

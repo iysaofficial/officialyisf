@@ -1,6 +1,5 @@
 import "../../components/css/News.css";
 import PageTitleNews from "../../components/pagetitle/PageTitleNews";
-import Footer from "../../components/Footer";
 import gambar from "../../Images/News/FTUB.WebP";
 
 function News4() {
@@ -85,6 +84,7 @@ function News4() {
                     <a
                       href="https://tabloidjawatimur.com/ftub-raih-triple-gold-medals-di-young-invention-scientific-fair-2021/"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       click here
                     </a>
@@ -95,8 +95,6 @@ function News4() {
           </div>
         </section>
       </div>
-
-      <Footer />
     </>
   );
 }

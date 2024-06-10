@@ -1,6 +1,5 @@
 import "../../components/css/News.css";
 import PageTitleNews from "../../components/pagetitle/PageTitleNews";
-import Footer from "../../components/Footer";
 import gambar6 from "../../Images/News/MCC.WebP";
 
 function News6() {
@@ -112,7 +111,7 @@ function News6() {
                     Source :{" "}
                     <a
                       href="https://pancarpos.com/27/03/2024/keren-5-siswa-sma-negeri-4-denpasar-raih-penghargaan-best-poster-dan-gold-medali-innovation-science-yisf/#google_vignette"
-                      target="_blank"
+                      target="_blank"rel="noreferrer"
                     >
                       click here
                     </a>
@@ -123,8 +122,6 @@ function News6() {
           </div>
         </section>
       </div>
-
-      <Footer />
     </>
   );
 }

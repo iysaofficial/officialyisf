@@ -1,4 +1,3 @@
-import ButtonItems from "./ButtonItems";
 import "./css/Banner.css";
 
 export default function Banner() {

@@ -12,7 +12,7 @@ function Certificate(){
 
                                 <div className="col-md-3">
                                     <div className="card">
-                                        <img src=""></img>
+                                        <img src="" alt=""></img>
                                     </div>
                                 </div>
 

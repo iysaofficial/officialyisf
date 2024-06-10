@@ -1,6 +1,5 @@
 import "../../components/css/News.css";
 import PageTitleNews from "../../components/pagetitle/PageTitleNews";
-import Footer from "../../components/Footer";
 import gambar7 from "../../Images/News/SMAN-1-Denpasar.WebP";
 
 function News7() {
@@ -76,6 +75,7 @@ function News7() {
                     <a
                       href="https://timesindonesia.co.id/indonesia-positif/488468/inovasi-irovit-bites-menangkan-sman-1-denpasar-di-yisf-2024#google_vignette"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       click here
                     </a>
@@ -86,8 +86,6 @@ function News7() {
           </div>
         </section>
       </div>
-
-      <Footer />
     </>
   );
 }
