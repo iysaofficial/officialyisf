@@ -13,7 +13,7 @@ function V2023() {
 
   return (
     <>
-      <PageTitle motherMenu="Video" activeMenu="" />
+      <PageTitle motherMenu="Video" menuback="Home" backbtn="/" activeMenu="" />
       <div className="section">
         <div className="container-fluid">
           <div className="col-md-12">

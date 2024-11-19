@@ -108,20 +108,11 @@ export default function Banner() {
             <div className="row align-items-center">
               <div className="col-md-6 order-2 order-md-1 text-center text-md-left">
                 <h1 className="text-white mb-4 banner-txt">
-                  Coming Soon Youth International Science Fair 2025
+                  Open Registration Youth International Science Fair 2025
                 </h1>
-                {/* <p className="text-white font-weight-light mb-5">(Close Registration)</p> */}
-                {/* <button className="ButtonItems">
-                  <a
-                    href="https://registrasi-yisf-2024.vercel.app"
-                    target="_blank"
-                  >
-                    Registration
-                  </a>
-                </button> */}
                 <div class="hero-btn">
-                  <a class="btn" >
-                    Coming Soon
+                  <a class="btn" href="/homeregist" >
+                    REGIST HERE!!!
                   </a>
                   <a
                     class="btn"

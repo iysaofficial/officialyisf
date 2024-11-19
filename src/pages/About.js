@@ -4,7 +4,7 @@ import PageTitle from "../components/pagetitle/PageTitle";
 function About() {
   return (
     <>
-      <PageTitle motherMenu="About" activeMenu="" />
+      <PageTitle motherMenu="About"menuback="Home" backbtn="/" activeMenu="" />
 
       <div className="mt-5">
         <section className="feature section pt-0">

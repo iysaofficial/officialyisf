@@ -5,19 +5,9 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
-import NewsRoutes from "./NewsRoutes";
 import DocumentWritter from "./pages/DocumentWritter";
 import Certificate from "./pages/Certificate";
-import GuideBook from "./components/GuideBook";
 
-// Curation
-import Curation1 from "./pages/Curation1";
-import Curation3 from "./pages/crtn/Curation3";
-import Curation3_1 from "./pages/crtn/Curation3_1";
-import Curation4 from "./pages/crtn/Curation4";
-import Curation11 from "./pages/crtn/Curation11";
-import Curation16 from "./pages/crtn/Curation16";
-// EndCuration
 
 // FAQ
 import Faq from "./pages/faq/Faq";
@@ -55,6 +45,9 @@ import Lowtahun from "./pages/low/lowtahun";
 import Kategori24 from "./pages/low/2024/kategori24";
 import Jenjangofl24 from "./pages/low/2024/jenjangofl24";
 import Jenjangonl24 from "./pages/low/2024/jenjangonl24";
+import HomeRegist from "./pages/registration/homeregist";
+import Indonesiaparticipants from "./pages/registration/indonesiaparticipants";
+import Internationalparticipants from "./pages/registration/internationalparticipants";
 
 // End News
 function App() {
@@ -70,14 +63,6 @@ function App() {
         <Route path="/PageTitle" element={<PageTitle />} />
         <Route path="/PageTitleNews" element={<PageTitleNews />} />
 
-        {/* Curation */}
-        <Route path="/curation1" element={<Curation1 />} />
-        <Route path="/curation3" element={<Curation3 />} />
-        <Route path="/curation3_1" element={<Curation3_1 />} />
-        <Route path="/curation4" element={<Curation4 />} />
-        <Route path="/curation11" element={<Curation11 />} />
-        <Route path="/curation16" element={<Curation16 />} />
-        {/* End Curation */}
 
         {/* FAQ */}
         <Route path="/faq" element={<Faq />} />
@@ -113,13 +98,16 @@ function App() {
         <Route path="/G2021" element={<G2021 />} />
         <Route path="/G2022" element={<G2022 />} />
         <Route path="/G2023" element={<G2023 />} />
-
         {/* End Link Gallery Foto */}
 
+        {/* START REGISTRATION */}
+        <Route path="/homeregist" element={<HomeRegist/>} />
+        <Route path="/indonesiaregist" element={<Indonesiaparticipants/>} />
+        <Route path="/interregist" element={<Internationalparticipants/>} />
+        {/* END REGISTRATION */}
+
         <Route path="/certificate" element={<Certificate />} />
-        <Route path="/guidebook" element={<GuideBook />} />
         <Route path="/document_writter" element={<DocumentWritter />} />
-        <Route path="/newslist/*" element={<NewsRoutes />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

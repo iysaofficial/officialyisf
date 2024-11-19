@@ -1,4 +1,3 @@
-import Footer from "../../components/Footer";
 import PageTitle from "../../components/pagetitle/PageTitle";
 
 function G2021() {
@@ -30,7 +29,7 @@ function G2021() {
 
     return (
         <>
-        <PageTitle motherMenu="Galeri" activeMenu="" />
+        <PageTitle motherMenu="Galeri" menuback="Home" backbtn="/" activeMenu="" />
             <div className="section">
                 <div className="container-fluid">
                     <div className="col-md-12">

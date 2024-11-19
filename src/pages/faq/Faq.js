@@ -1,11 +1,10 @@
 import "../faq/Faq.css";
 import PageTitle from "../../components/pagetitle/PageTitle";
-import Footer from "../../components/Footer";
 
 export default function Faq() {
   return (
     <>
-      <PageTitle motherMenu="FAQ" activeMenu="" />
+      <PageTitle motherMenu="FAQ" menuback="Home" backbtn="/" activeMenu="" />
 
       <section className="faq-section">
         <div className="container">

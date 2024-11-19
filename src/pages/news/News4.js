@@ -1,11 +1,11 @@
 import "../../components/css/News.css";
-import PageTitleNews from "../../components/pagetitle/PageTitleNews";
+import PageTitle from "../../components/pagetitle/PageTitle";
 import gambar from "../../Images/News/FTUB.WebP";
 
 function News4() {
   return (
     <>
-      <PageTitleNews motherMenu="Media Coverage" activeMenu="" />
+      <PageTitle motherMenu="Media Coverage" menuback="Previous Page" backbtn="/PageNewsList" activeMenu="" />
       <div className="mt-5">
         <section className="feature section pt-0">
           <div className="container">

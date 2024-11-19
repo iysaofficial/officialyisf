@@ -1,4 +1,3 @@
-import Footer from "../../components/Footer";
 import PageTitle from "../../components/pagetitle/PageTitle";
 
 function G2023() {

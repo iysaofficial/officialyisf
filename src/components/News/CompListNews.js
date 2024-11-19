@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Footer from "../Footer";
 
 import gambar1 from "../../Images/News/PenelitiSMAMuhammadiyah.WebP";
 import gambar2 from "../../Images/News/GuruMuda.WebP";
@@ -260,7 +259,6 @@ class CompListNews extends Component {
             </div>
           </div>
         </body>
-        <Footer />
       </>
     );
   }
