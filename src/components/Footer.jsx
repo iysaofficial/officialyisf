@@ -71,9 +71,7 @@ export default function Footer() {
                       </a>
                     </li>
                     <li>
-                      <a href="/V2024">
-                        Video 2024
-                      </a>
+                      <a href="/V2024">Video 2024</a>
                     </li>
                     <li>
                       <a href="/V2023">Video 2023</a>
@@ -112,7 +110,12 @@ export default function Footer() {
                       <a href="/contact">Contact Us</a>
                     </li>
                     <li>
-                      {/* <a href="">Guide Book</a> */}
+                      <a
+                        href="https://drive.google.com/file/d/1Ny4077hi2vrDv5aNYxKmCVnGLKUdg8HU/view?usp=sharing"
+                        target="_blank"
+                      >
+                        Guide Book
+                      </a>
                     </li>
                   </ul>
                 </div>
