@@ -11,7 +11,7 @@ export default function Timevenue() {
 
                             {/* <div className="image-content" data-aos="fade-right"> */}
                             <h1>Venue Malang Creative Center</h1>
-                                <img className="img-fluid" src="images/vektor/mcc.jpg" alt="iphone" />
+                                <img className="img-fluid" src="images/vektor/venueyisf.jpg" alt="iphone" />
                             {/* </div> */}
 
                         </div>
@@ -20,7 +20,7 @@ export default function Timevenue() {
 
                             {
                                 /* <!-- About Title --> */
-                                <img className="img-fluid" src="images/vektor/time.jpg" alt="iphone" />
+                                <img className="img-fluid" src="images/vektor/timeyisf.jpg" alt="iphone" />
 
                             }
                             
