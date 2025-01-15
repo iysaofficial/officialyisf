@@ -23,7 +23,7 @@ export default function Indonesiaparticipants() {
 
   useEffect(() => {
     const scriptURL =
-      "https://script.google.com/macros/s/AKfycbzploCKaiIFFj9T0Z9zUW4MIch0Q-VARmjCDy_xUMMmlPYl0vIQ7S9flnWYcv5H4mcIMw/exec";
+      "/";
 
     const form = document.forms["regist-form"];
     var buttonCounter = 0;
