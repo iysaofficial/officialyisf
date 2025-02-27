@@ -52,7 +52,7 @@ export default function Navbar() {
                                             <a className="dropdown-item" href="/PageNewsList">News</a>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1VMMP1vwq2f0mMrnuUHWoJHItQc6ly-Fl/view?usp=sharing" target="_blank" rel="noreferrer" >Press Release 2024</a>
+                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1kbi8I-yo7wxnWYMQxOLsOlw7GgpYfAHr/view?usp=sharing" target="_blank" rel="noreferrer" >Press Release 2025</a>
                                         </li>
                                     </ul>
                                 </li>
