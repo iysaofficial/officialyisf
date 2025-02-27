@@ -6,10 +6,10 @@ export default function VideoAE() {
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="content-block">
-                                <h2>After Event YISF 2024</h2>
+                                <h2>After Event YISF 2025</h2>
                                 <p>
                                     </p>
-                                    <a data-fancybox href="https://www.youtube.com/watch?v=URIYHumYJi0">
+                                    <a data-fancybox href="https://youtu.be/dBIe6IuDkoI?si=uX2s9oIsP-bO1DAJ">
                                         <i class="ti-control-play video"></i>
                                     </a>
                             </div>
