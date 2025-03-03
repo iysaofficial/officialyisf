@@ -1,7 +1,7 @@
 import React from "react";
 import PageTitle from "../../../components/pagetitle/PageTitle";
 
-const Jenjangofl24 = () => {
+const Jenjangofl25 = () => {
   return (
     <>
       <PageTitle motherMenu="List of Winners" activeMenu="" />
@@ -21,4 +21,4 @@ const Jenjangofl24 = () => {
   );
 };
 
-export default Jenjangofl24;
+export default Jenjangofl25;

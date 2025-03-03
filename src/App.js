@@ -49,6 +49,11 @@ import HomeRegist from "./pages/registration/homeregist";
 import Indonesiaparticipants from "./pages/registration/indonesiaparticipants";
 import Internationalparticipants from "./pages/registration/internationalparticipants";
 
+
+import Kategori25 from "./pages/low/2025/kategori25";
+import Jenjangonl25 from "./pages/low/2025/jenjangonl25";
+import Jenjangofl25 from "./pages/low/2025/jenjangofl25";
+
 // End News
 function App() {
   return (
@@ -92,7 +97,12 @@ function App() {
         <Route path="/kategori24" element={<Kategori24 />} />
         <Route path="/jenjangonl24" element={<Jenjangonl24 />} />
         <Route path="/jenjangofl24" element={<Jenjangofl24 />} />
+
+        <Route path="/kategori25" element={<Kategori25 />} />
+        <Route path="/jenjangonl25" element={<Jenjangonl25 />} />
+        <Route path="/jenjangofl25" element={<Jenjangofl25 />} />
         {/* List of Winners End*/}
+        
 
         {/* Link Gallery Foto */}
         <Route path="/G2021" element={<G2021 />} />
