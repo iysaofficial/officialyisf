@@ -178,7 +178,7 @@ export default function Navbar() {
                       <i className="ti-angle-down"></i>
                     </span>
                   </a>
-                  {/* <!-- Dropdown list --> */}
+                  
                   <ul className="dropdown-menu">
                     <li className="dropdown dropdown-submenu dropleft">
                       <a
