@@ -4,7 +4,12 @@ import PageTitle from "../../../components/pagetitle/PageTitle";
 const Jenjangofl25 = () => {
   return (
     <>
-      <PageTitle motherMenu="List of Winners" activeMenu="" />
+      <PageTitle
+        menuback="Category Page"
+        backbtn="/kategori24"
+        motherMenu="List of Winners Offline"
+        activeMenu="/ 2024"
+      />
 
       <section className="faq-section">
         <div className="container text-center">

@@ -12,7 +12,7 @@ function Home() {
         <>
             <Banner />
             <C_About/>
-            <Timevenue />
+            {/* <Timevenue /> */}
             <Mechanis />
             <Categories />
             <VideoAE />

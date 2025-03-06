@@ -108,7 +108,7 @@ export default function Banner() {
             <div className="row align-items-center">
               <div className="col-md-6 order-2 order-md-1 text-center text-md-left">
                 <h1 className="text-white mb-4 banner-txt">
-                  Open Registration Youth International Science Fair 2026
+                  Youth International Science Fair
                 </h1>
                 <div class="hero-btn">
                   <a class="btn" href="/" >
