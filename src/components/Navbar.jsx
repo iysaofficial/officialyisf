@@ -158,11 +158,11 @@ export default function Navbar() {
                     <li>
                       <a
                         className="dropdown-item"
-                        href="https://drive.google.com/drive/folders/1l1pbUOJHkPAQQfNzCmC_KJoL_ASfhSrw?usp=sharing"
+                        href="https://drive.google.com/drive/folders/1zpoSiEZS0TL7uU8O7cV9myEWeA4WEkJ9?usp=sharing"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        Certificate supervisors
+                        Certificate supervisors 2025
                       </a>
                     </li>
                   </ul>
