@@ -24,9 +24,9 @@ const Kategori25 = () => {
             >
               SPECIAL AWARD ONLINE
             </a>
-            <a className="btn m-2" href="/jenjangonl25">
+{/*             <a className="btn m-2" href="/jenjangonl25">
               YISF ONLINE
-            </a>
+            </a> */}
             <a
               className="btn m-2"
               href="https://drive.google.com/file/d/1TNx_XfX91CgyZWmrmRkqjW9oUZvQlkzt/view?usp=sharing"
@@ -35,9 +35,9 @@ const Kategori25 = () => {
             >
               SPECIAL AWARD OFFLINE
             </a>
-            <a className="btn m-2" href="/jenjangofl25">
+{/*             <a className="btn m-2" href="/jenjangofl25">
               YISF OFFLINE
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
