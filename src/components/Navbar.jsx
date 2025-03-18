@@ -98,6 +98,26 @@ export default function Navbar() {
                     <li>
                       <a
                         className="dropdown-item"
+                        href="https://drive.google.com/drive/folders/12BqqyZ7kUYGxz4_VYTPpFpNGmRrFou5s?usp=sharing"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Curation 2025
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="dropdown-item"
+                        href="https://drive.google.com/drive/folders/14Q1z8L0Vi4SYGyQdALpmlcEjG2O7k84e?usp=sharing"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Curation 2024
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="dropdown-item"
                         href="https://drive.google.com/drive/folders/14Q1z8L0Vi4SYGyQdALpmlcEjG2O7k84e?usp=sharing"
                         target="_blank"
                         rel="noreferrer"
