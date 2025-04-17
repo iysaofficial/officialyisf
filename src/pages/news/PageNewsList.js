@@ -6,7 +6,7 @@ class PageNewsList extends Component {
   render() {
     return (
       <>
-        <PageTitle motherMenu="Media Coverage" menuback="Home" backbtn="/" activeMenu="" />
+        <PageTitle motherMenu="Media" menuback="Home" backbtn="/" activeMenu="" />
         <CompListNews />
       </>
     );

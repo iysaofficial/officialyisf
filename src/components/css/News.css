@@ -16,3 +16,7 @@
     font-size: 16px;
   }
 }
+
+.newspage-section .row{
+  justify-content: center;
+}

@@ -1,10 +1,12 @@
 import "./css/Footer.css";
+import ImageSlider from "./ImageSlider/ImageSlider";
 
 export default function Footer() {
   return (
     <>
       <footer>
-        <div class="footer-main mt-5">
+        <div class="footer-main">
+        <ImageSlider />
           <div class="container">
             <div class="row">
               <div class="col-lg-4 col-md-12 m-md-auto align-self-center">
@@ -94,9 +96,6 @@ export default function Footer() {
                     <li>
                       <a href="/faq">FAQ</a>
                     </li>
-                    {/* <li>
-                      <a href="/document_writter">Documents Required</a>
-                    </li> */}
                   </ul>
                 </div>
               </div>

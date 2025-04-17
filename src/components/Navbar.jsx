@@ -11,7 +11,6 @@ export default function Navbar() {
                 alt="logo"
               />
             </a>
-
             <button
               className="navbar-toggler"
               type="button"
@@ -23,7 +22,6 @@ export default function Navbar() {
             >
               <span className="ti-menu"></span>
             </button>
-
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
@@ -60,7 +58,7 @@ export default function Navbar() {
                     href="#"
                     data-toggle="dropdown"
                   >
-                    Media Coverage
+                    Media
                     <span>
                       <i className="ti-angle-down"></i>
                     </span>
@@ -68,7 +66,7 @@ export default function Navbar() {
                   <ul className="dropdown-menu">
                     <li>
                       <a className="dropdown-item" href="/PageNewsList">
-                        News
+                        News from Media
                       </a>
                     </li>
                     <li>
@@ -79,6 +77,26 @@ export default function Navbar() {
                         rel="noreferrer"
                       >
                         Press Release 2025
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="dropdown-item"
+                        href="https://drive.google.com/file/d/1VMMP1vwq2f0mMrnuUHWoJHItQc6ly-Fl/view?usp=sharing"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Press Release 2024
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="dropdown-item"
+                        href="https://drive.google.com/file/d/1ETC7RxAhn6vyXn4Pzm6iJ13zZ40lHlbf/view?usp=sharing"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Press Release 2023
                       </a>
                     </li>
                   </ul>
@@ -220,7 +238,7 @@ export default function Navbar() {
                         <li>
                           <a
                             className="dropdown-item"
-                            href="https://drive.google.com/drive/folders/1nX7vjr7ZA6TnMBeKah65kFE-N_cTItLm?usp=sharing"
+                            href="https://drive.google.com/drive/folders/1RZ89JUpnYxj2z6wwM6Y5T8QPn66_6DXQ?usp=sharing"
                             target="_blank"
                             rel="noreferrer"
                           >
