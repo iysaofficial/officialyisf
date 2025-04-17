@@ -13,7 +13,7 @@ const ImageSlider = () => {
     '/images/slider/5.jpg',
     '/images/slider/6.jpg',
     '/images/slider/7.jpg',
-    '/images/slider/8.jpg',
+    '/images/slider/8.jpg'
   ];
 
   return (
@@ -46,6 +46,7 @@ const ImageSlider = () => {
                 borderRadius: '12px',
               }}
             />
+            {/* edited */}
           </SwiperSlide>
         ))}
       </Swiper>
