@@ -46,10 +46,13 @@ import Kategori24 from "./pages/low/2024/kategori24";
 import Jenjangofl24 from "./pages/low/2024/jenjangofl24";
 import Jenjangonl24 from "./pages/low/2024/jenjangonl24";
 import HomeRegist from "./pages/registration/homeregist";
-import Indonesiaparticipants from "./pages/registration/indonesiaparticipants";
-import Internationalparticipants from "./pages/registration/internationalparticipants";
-
-
+import Homeindo from "./pages/registration/homeindo";
+import Homeinter from "./pages/registration/homeinter";
+import IndoOnline from "./pages/registration/indo-online";
+import IndoOffline from "./pages/registration/indo-offline";
+import InterOnline from "./pages/registration/inter-online";
+import InterOffline from "./pages/registration/inter-offline";
+import Thankyouinter from "./pages/registration/thankyouinter";
 import Kategori25 from "./pages/low/2025/kategori25";
 import Jenjangonl25 from "./pages/low/2025/jenjangonl25";
 import Jenjangofl25 from "./pages/low/2025/jenjangofl25";
@@ -112,8 +115,13 @@ function App() {
 
         {/* START REGISTRATION */}
         <Route path="/homeregist" element={<HomeRegist/>} />
-        <Route path="/indonesiaregist" element={<Indonesiaparticipants/>} />
-        <Route path="/interregist" element={<Internationalparticipants/>} />
+        <Route path="/homeindo" element={<Homeindo/>} />
+        <Route path="/homeinter" element={<Homeinter/>} />
+        <Route path="/indo-online" element={<IndoOnline/>} />
+        <Route path="/indo-offline" element={<IndoOffline/>} />
+        <Route path="/inter-online" element={<InterOnline/>} />
+        <Route path="/inter-offline" element={<InterOffline/>} />
+        <Route path="/thankyouinter" element={<Thankyouinter />} />
         {/* END REGISTRATION */}
 
         <Route path="/certificate" element={<Certificate />} />

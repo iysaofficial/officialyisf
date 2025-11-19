@@ -6,14 +6,13 @@ import 'swiper/css';
 
 const ImageSlider = () => {
   const images = [
-    '/images/slider/1.png',
-    '/images/slider/2.png',
-    '/images/slider/3.png',
-    '/images/slider/4.png',
-    '/images/slider/5.png',
-    '/images/slider/6.png',
-    '/images/slider/7.png',
-    '/images/slider/8.png'
+    '/images/slider/1-min.png',
+    '/images/slider/2-min.png',
+    '/images/slider/3-min.png',
+    '/images/slider/4-min.png',
+    '/images/slider/5-min.png',
+    '/images/slider/6-min.png',
+    '/images/slider/7-min.png'
   ];
 
   return (
