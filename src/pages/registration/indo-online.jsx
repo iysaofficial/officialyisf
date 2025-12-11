@@ -63,7 +63,7 @@ function IndonesiaOnline() {
   }, [navigate]);
 
   const scriptURL =
-    "https://script.google.com/macros/s/AKfycbyTr10vw6R4jwrZi_tO63qYlcr3N-oXgaV3xgJBeU2CC0VGneUrG5G8YXdoo8ZyBUVz/exec";
+    "https://script.google.com/macros/s/AKfycbzJWI-1hCNwfLHcYzK4RNY4Mz6nN_4Dg3TKq80WP2hkNfscwTRxKvtkzDqsm1GTDdPX/exec";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -225,7 +225,7 @@ function IndonesiaOnline() {
                     name="CATEGORY_PARTICIPANT"
                     className="form-control"
                     placeholder="Choose Categories Participant"
-                    value="INDONESIAN CITIZEN"
+                    value="INDONESIA"
                     readOnly
                   />
                 </div>
@@ -550,7 +550,7 @@ function IndonesiaOnline() {
                       Innovation Science
                     </option>
                     <option value="Engineering">Engineering</option>
-                    <option value="Life Science">Life Science</option>
+                    <option value="Life Sciences">Life Sciences</option>
                   </select>
                 </div>
 

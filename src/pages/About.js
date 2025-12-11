@@ -4,7 +4,7 @@ import PageTitle from "../components/pagetitle/PageTitle";
 function About() {
   return (
     <>
-      <PageTitle motherMenu="About"menuback="Home" backbtn="/" activeMenu="" />
+      <PageTitle motherMenu="About" menuback="Home" backbtn="/" activeMenu="" />
 
       <div className="mt-5">
         <section className="feature section pt-0">
@@ -48,10 +48,17 @@ function About() {
                     (YISF).
                     <br />
                     <br />
-                    In 2024, YISF take place online and offline, which be
-                    attended by 371 online teams, and 111 offline teams from 17
-                    countries. The offline competition was held in Malang
-                    Creative Center , Malang.
+                    Youth International Science Fair (YISF) 2025, this year is
+                    an important moment for the event YISF is entering its 5th
+                    year. This year IYSA is collaborating with the Faculty of
+                    Letters, State University of Malang to organize these event.
+                    Which is an international event, managed to attract 270
+                    participants from 24 countries, including Kazakhstan, the
+                    Philippines, South Africa, Mexico, China, South Korea,
+                    Uzbekistan, Thailand, the United Arab Emirates, Bangladesh,
+                    Saudi Arabia, Iraq, Romania, Brazil, Turkmenistan, Vietnam,
+                    Hong Kong, Singapore, Turkey, the United States, Austria,
+                    India, Malaysia and Indonesia.
                     <br />
                     <br />
                     For this year, YISF is back with the hope of being the right

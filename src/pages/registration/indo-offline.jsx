@@ -47,8 +47,6 @@ function IndonesiaOffline() {
     switch (value) {
       case "Youth International Science Fair - Offline Competition":
         break;
-      case "Youth International Science Fair - Offline Competition + Excursion":
-        break;
       default:
         break;
     }
@@ -58,13 +56,13 @@ function IndonesiaOffline() {
     const termsAccepted = sessionStorage.getItem("termsAccepted");
 
     if (!termsAccepted) {
-      alert("Anda harus menyetujui Syarat & Ketentuan terlebih dahulu.");
+      alert("You must agree to the Terms & Conditions first.");
       navigate("/homeindo"); // Navigasi ke halaman HomeIndo
     }
   }, [navigate]);
 
   const scriptURL =
-    "https://script.google.com/macros/s/AKfycbzKHP3Wd5s-I-dcaa90WE2I5wPKrGZ8VSgxCvGT1nLhznHTllhVd2s3GeUEyybHedaZ/exec";
+    "https://script.google.com/macros/s/AKfycbzksDJ8S20YjOnlWadgwgR17ceYP4QwWM_rH94HWWL5cNz_J6R1ZnZU3ayLI5s-Tldl/execx";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -224,7 +222,7 @@ function IndonesiaOffline() {
                     name="CATEGORY_PARTICIPANT"
                     className="form-control"
                     placeholder="Choose Categories Participant"
-                    value="INDONESIAN CITIZEN"
+                    value="INDONESIA"
                     readOnly
                   />
                 </div>
@@ -244,12 +242,6 @@ function IndonesiaOffline() {
                     <option value="">--Choose Category Competition--</option>
                     <option value="Youth International Science Fair - Offline Competition">
                       Offline Competition
-                    </option>
-                    <option value="Youth International Science Fair - Offline Competition + Excursion">
-                      Offline Competition + Excursion
-                    </option>
-                    <option value="Youth International Science Fair - Offline Competition + Fullpack">
-                      Offline Competition + Fullpack
                     </option>
                   </select>
                 </div>
@@ -555,7 +547,7 @@ function IndonesiaOffline() {
                       Innovation Science
                     </option>
                     <option value="Engineering">Engineering</option>
-                    <option value="Life Science">Life Science</option>
+                    <option value="Life Sciences">Life Sciences</option>
                   </select>
                 </div>
 

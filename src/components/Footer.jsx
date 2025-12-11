@@ -58,10 +58,18 @@ export default function Footer() {
                   <ul>
                     <li>
                       <a
+                        href="https://drive.google.com/drive/folders/1RZ89JUpnYxj2z6wwM6Y5T8QPn66_6DXQ?usp=sharing"
+                        target="_blank"
+                      >
+                        2025
+                      </a>
+                    </li>
+                    <li>
+                      <a
                         href="https://drive.google.com/drive/folders/1XI9bn_oR9Q0yD_0cueLkPsR6fRdF0NRy?usp=sharing"
                         target="_blank"
                       >
-                        Photo 2024
+                        2024
                       </a>
                     </li>
                     <li>
@@ -69,14 +77,8 @@ export default function Footer() {
                         href="https://drive.google.com/drive/folders/1DBhEkKvKIb85-D-7h3dN6xvymlDRYAFv?usp=drive_link"
                         target="_blank"
                       >
-                        Photo 2023
+                        2023
                       </a>
-                    </li>
-                    <li>
-                      <a href="/V2024">Video 2024</a>
-                    </li>
-                    <li>
-                      <a href="/V2023">Video 2023</a>
                     </li>
                   </ul>
                 </div>
