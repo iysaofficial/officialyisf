@@ -112,7 +112,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        href="https://drive.google.com/file/d/1Ny4077hi2vrDv5aNYxKmCVnGLKUdg8HU/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1yFRZqNUSlNo8V7xbDdS0A_4RPXgkcD3-/view?usp=sharing"
                         target="_blank"
                       >
                         Guide Book

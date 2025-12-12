@@ -111,12 +111,12 @@ export default function Banner() {
                   Open Registration for Youth International Science Fair 2026
                 </h1>
                 <div class="hero-btn">
-                  <a class="btn" href="/homeregist" >
+                  <a class="btn" href="/homeregist">
                     Regist here!
                   </a>
                   <a
                     class="btn"
-                    href="https://drive.google.com/file/d/1Ny4077hi2vrDv5aNYxKmCVnGLKUdg8HU/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1yFRZqNUSlNo8V7xbDdS0A_4RPXgkcD3-/view?usp=sharing"
                     target="_blank"
                   >
                     Guide Book
