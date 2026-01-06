@@ -420,6 +420,7 @@ export default function InternationalOffline() {
                     <option value="Elementary">Elementary</option>
                     <option value="Secondary">Secondary</option>
                     <option value="University">University</option>
+                    <option value="University">Public</option>
                   </select>
                 </div>
                 <div className="input-box">

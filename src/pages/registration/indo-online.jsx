@@ -421,6 +421,7 @@ function IndonesiaOnline() {
                     <option value="Elementary">Elementary</option>
                     <option value="Secondary">Secondary</option>
                     <option value="University">University</option>
+                    <option value="Elementary">Public</option>
                   </select>
                 </div>
                 <div className="input-box">
