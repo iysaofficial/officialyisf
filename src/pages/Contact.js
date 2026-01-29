@@ -103,6 +103,7 @@ export default function Contact() {
                       <a
                         href="https://api.whatsapp.com/send/?phone=6288213248890&text&type=phone_number&app_absent=0"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         0882 - 1324 - 8890
                       </a>
@@ -110,6 +111,7 @@ export default function Contact() {
                       <a
                         href="https://api.whatsapp.com/send/?phone=6281770914129&text&type=phone_number&app_absent=0"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         0817 - 7091 - 4129
                       </a>
@@ -126,6 +128,7 @@ export default function Contact() {
                       <a
                         href="https://goo.gl/maps/9x18coXGCmSscKec6"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         Jalan Kemang RT. 03/RW. 06 Kel. Pasir Putih, Sawangan
                         Depok, Jawa Barat 16519, Indonesia.
@@ -140,6 +143,7 @@ export default function Contact() {
                     </div>
                     <div className="col-md-6">
                       <a href="mailto:youthscience.yisf@gmail.com"                         target="_blank"
+                      rel="noopener noreferrer"
                       >
                         youthscience.yisf@gmail.com
                       </a>

@@ -55,6 +55,7 @@ function HomeIndo() {
           <div className="link-web mx-auto text-center">
             <a
               className="btn btn-custom text-center me-lg-5 "
+              href="#!"
               onClick={() =>
                 handleOpenModal(
                   "/indo-online",
@@ -66,6 +67,7 @@ function HomeIndo() {
             </a>
             <a
               className="btn btn-custom text-center me-lg-5 "
+              href="#!"
               onClick={() =>
                 handleOpenModal(
                   "/indo-offline",

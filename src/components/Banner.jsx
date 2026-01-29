@@ -118,6 +118,7 @@ export default function Banner() {
                     class="btn"
                     href="https://drive.google.com/file/d/1yFRZqNUSlNo8V7xbDdS0A_4RPXgkcD3-/view?usp=sharing"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Guide Book
                   </a>

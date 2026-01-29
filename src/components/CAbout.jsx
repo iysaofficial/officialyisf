@@ -1,6 +1,6 @@
 import ButtonItems from "./ButtonItems"
 
-export default function C_About() {
+export default function CAbout() {
     return (
         <>
             <section className="feature section pt-0">

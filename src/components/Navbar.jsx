@@ -55,7 +55,7 @@ export default function Navbar() {
                 <li className="nav-item dropdown @@MediaCoverage">
                   <a
                     className="nav-link dropdown-toggle"
-                    href="#"
+                    href="#!"
                     data-toggle="dropdown"
                   >
                     Media
@@ -104,7 +104,7 @@ export default function Navbar() {
                 <li className="nav-item dropdown @@Curation">
                   <a
                     className="nav-link dropdown-toggle"
-                    href="#"
+                    href="#!"
                     data-toggle="dropdown"
                   >
                     Curation
@@ -183,7 +183,7 @@ export default function Navbar() {
                 <li className="nav-item dropdown @@certificate">
                   <a
                     className="nav-link dropdown-toggle"
-                    href="#"
+                    href="#!"
                     data-toggle="dropdown"
                   >
                     Certificate
@@ -208,7 +208,7 @@ export default function Navbar() {
                 <li className="nav-item dropdown @@gallery">
                   <a
                     className="nav-link dropdown-toggle"
-                    href="#"
+                    href="#!"
                     data-toggle="dropdown"
                   >
                     Gallery

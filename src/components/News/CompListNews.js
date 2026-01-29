@@ -29,6 +29,7 @@ class CompListNews extends Component {
                     <a
                       href="https://timesindonesia.co.id/pendidikan/528337/mahasiswa-unisma-malang-borong-prestasi-di-ajang-sains-internasional-yisf-2025"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Unisma Malang students make achievements in YISF 2025
                       international science event
@@ -49,6 +50,7 @@ class CompListNews extends Component {
                     <a
                       href="https://timesindonesia.co.id/pendidikan/528337/mahasiswa-unisma-malang-borong-prestasi-di-ajang-sains-internasional-yisf-2025"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Read more
                     </a>
@@ -68,6 +70,7 @@ class CompListNews extends Component {
                     <a
                       href="https://jatim.antaranews.com/berita/887401/tim-sman-3-taruna-angkasa-raih-dua-medali-emas-di-yisf-2025"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       SMAN 3 Taruna Angkasa team wins two gold medals at YISF
                       2025
@@ -86,6 +89,7 @@ class CompListNews extends Component {
                     <a
                       href="https://jatim.antaranews.com/berita/887401/tim-sman-3-taruna-angkasa-raih-dua-medali-emas-di-yisf-2025"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Read more
                     </a>

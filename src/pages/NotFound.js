@@ -7,6 +7,6 @@ export default function NotFound() {
         setTimeout(() => {
             navigate("/", {  })
         }, 1000)
-    }, [])
+    }, [navigate])
         return <h1>Not Found</h1>
 }
