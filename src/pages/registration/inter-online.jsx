@@ -118,15 +118,6 @@ export default function InternationalOnline() {
       if (response.ok) {
         setStatusMessage("Data sent successfully!");
 
-        // Ambil data sebelum reset
-        // const formData = {
-        //   namaLengkap: selectedMaxNamaLengkap,
-        //   projectTitle: selectedMaxProject,
-        //   category: selectedCategory,
-        //   categoryPrice: categoryPrice,
-        //   namasekolah: selectedNamaSekolah,
-        // };
-
         form.reset();
         setTimeout(() => {
           navigate(

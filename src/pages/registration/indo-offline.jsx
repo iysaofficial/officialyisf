@@ -49,6 +49,9 @@ function IndonesiaOffline() {
       case "Youth International Science Fair - Offline Competition":
         setCategoryPrice("RP 3.150.000");
         break;
+      case "Youth International Science Fair - Offline Competition + Excursion":
+        setCategoryPrice("");
+        break;
       default:
         break;
     }
