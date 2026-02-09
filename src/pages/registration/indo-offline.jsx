@@ -249,6 +249,9 @@ function IndonesiaOffline() {
                     <option value="Youth International Science Fair - Offline Competition">
                       Offline Competition
                     </option>
+                    <option value="Youth International Science Fair - Offline Competition + Excursion">
+                      Offline Competition + Excursion
+                    </option>
                   </select>
                 </div>
               </div>
