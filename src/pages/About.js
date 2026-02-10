@@ -30,40 +30,16 @@ function About() {
                   {/* <!-- About Description --> */}
                   {/* University Udayana Bali Faculty of Agriculture,  */}
                   <p className="desc text-justify">
-                    The number of creativity and idea development makes students
-                    produce many products that are beneficial to society and the
-                    environment. Creativity and the development of ideas as
-                    outlined in the written work requires a place to evaluate
-                    the results.
+                   The growth of creativity and idea development encourages students to produce various innovations that are beneficial to society and the environment. Creativity and idea development, as expressed through scientific writing, require a proper platform for evaluation and appreciation.
                     <br />
                     <br />
-                    This event can be a place for creativity competitions for
-                    Elementary, Secondary, University, and Public (teachers,
-                    lecturers, researchers, companies, institutions,
-                    organizations). This event is expected to help evaluate the
-                    results of student research. Indonesian Young Scientist
-                    Association (IYSA) in collaboration with University
-                    Diponegoro Faculty of Engineering, and BUCA IMSEF Turkey
-                    will hold the event “Youth International Science Fair
-                    (YISF).
+                   This event serves as a competition and evaluation platform for creativity, open to Elementary, Secondary, University students, and the Public (teachers, lecturers, researchers, companies, institutions, and organizations). It is expected to support the assessment and development of research outcomes produced by young researchers.
                     <br />
                     <br />
-                    Youth International Science Fair (YISF) 2025, this year is
-                    an important moment for the event YISF is entering its 5th
-                    year. This year IYSA is collaborating with the Faculty of
-                    Letters, State University of Malang to organize these event.
-                    Which is an international event, managed to attract 270
-                    participants from 24 countries, including Kazakhstan, the
-                    Philippines, South Africa, Mexico, China, South Korea,
-                    Uzbekistan, Thailand, the United Arab Emirates, Bangladesh,
-                    Saudi Arabia, Iraq, Romania, Brazil, Turkmenistan, Vietnam,
-                    Hong Kong, Singapore, Turkey, the United States, Austria,
-                    India, Malaysia and Indonesia.
+                    The Indonesian Young Scientist Association (IYSA), in collaboration with UIN Sunan Kalijaga Yogyakarta, proudly organizes the Youth International Science Fair (YISF), with support from MIICA and 1923 IMSEF.
                     <br />
                     <br />
-                    For this year, YISF is back with the hope of being the right
-                    place for researchers to evaluate the ideas and works that
-                    have been produced.
+                    This year, YISF returns with the hope of continuing to be a valuable platform for researchers to evaluate, develop, and showcase the ideas and scientific works they have produced.
                   </p>
                 </div>
               </div>

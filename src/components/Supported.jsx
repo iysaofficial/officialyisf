@@ -12,12 +12,12 @@ export default function Supported() {
                             <div className="logo-iysa col-lg-4 col-md-4 mt-5 mt-lg-0">
                                 <img className="" src="images/logo/iysa.png" alt=""/>
                             </div>
-                            <div className="logo-teknikundip col-lg-4 mt-5 mt-lg-0 text-center">
-                                <img className="" src="images/logo/TeknikUNDIP.WebP" alt=""/>
+                            <div className="logo-teknikundip col-lg-2 mt-5 mt-lg-0 text-center">
+                                <img className="" src="https://res.cloudinary.com/dtik1z1qd/image/upload/v1770720880/Logo_UIN_Sunan_Kalijaga_rl5l5b.png" alt=""/>
                             </div>
-                            <div className="Logo-Support col-lg-4 col-md-4 mt-5 mt-lg-0">
+                            {/* <div className="Logo-Support col-lg-4 col-md-4 mt-5 mt-lg-0">
                                 <img className="" src="images/logo/buca.png" alt=""/>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -30,14 +30,14 @@ export default function Supported() {
                             <div className="logo-miica col-lg-4 col-md-4 mt-5 mt-lg-0">
                                 <img className="" src="images/logo/miica.png" alt=""/>
                             </div>
-                            <div className="logo-aktuaria col-lg-4 mt-5 mt-lg-0 text-center">
+                            {/* <div className="logo-aktuaria col-lg-4 mt-5 mt-lg-0 text-center">
                                 <img className="" src="images/logo/LogoAKTUARIA.png" alt=""/>
-                            </div>
-                            <div className="Logo-newera col-lg-4 col-md-4 mt-5 mt-lg-0">
+                            </div> */}
+                            {/* <div className="Logo-newera col-lg-4 col-md-4 mt-5 mt-lg-0">
                                 <img className="" src="images/logo/NWERA.png" alt=""/>
-                            </div>
-                            <div className="Logo-newera col-lg-4 col-md-4 mt-5 mt-lg-0">
-                                <img className="" src="images/logo/UNM.png" alt=""/>
+                            </div> */}
+                            <div className="Logo-newera col-lg-6 col-md-4 mt-5 mt-lg-0">
+                                <img className="" src="https://res.cloudinary.com/dtik1z1qd/image/upload/v1770722053/imsef_kuoxjp.png" alt=""/>
                             </div>
                         </div>
                     </div>
