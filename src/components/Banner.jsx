@@ -110,10 +110,10 @@ export default function Banner() {
                 <h1 className="text-white mb-4 banner-txt">
                   Youth International Science Fair 2026
                 </h1>
-                <div class="hero-btn">
-                  <a class="btn disabled-btn" href="#">
+                <div className="hero-btn">
+                  <button className="btn disabled-btn" type="button" disabled>
                     CLOSED REGIST! 
-                  </a>
+                  </button>
                   {/* <a
                     class="btn"
                     href="https://drive.google.com/file/d/1yFRZqNUSlNo8V7xbDdS0A_4RPXgkcD3-/view?usp=sharing"
