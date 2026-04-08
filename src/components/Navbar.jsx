@@ -196,6 +196,14 @@ export default function Navbar() {
                     <li>
                       <a
                         className="dropdown-item"
+                        href="https://drive.google.com/drive/folders/1cfecy_8f1IymErRrxpJkz98JHD7ICK_b?usp=sharing"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Certificate supervisors 2026
+                      </a>
+                      <a
+                        className="dropdown-item"
                         href="https://drive.google.com/drive/folders/1amqbJ6xkLDjLk9-Cn9p4D7itnpqkBGGt?usp=sharing"
                         target="_blank"
                         rel="noreferrer"
