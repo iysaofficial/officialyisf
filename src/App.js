@@ -8,7 +8,6 @@ import NotFound from "./pages/NotFound";
 import DocumentWritter from "./pages/DocumentWritter";
 import Certificate from "./pages/Certificate";
 
-
 // FAQ
 import Faq from "./pages/faq/Faq";
 
@@ -54,6 +53,9 @@ import InterOnline from "./pages/registration/inter-online";
 import InterOffline from "./pages/registration/inter-offline";
 import Thankyouinter from "./pages/registration/thankyouinter";
 import Kategori25 from "./pages/low/2025/kategori25";
+import Kategori26 from "./pages/low/2026/kategori26";
+import Jenjangonl26 from "./pages/low/2026/jenjangonl26";
+import Jenjangofl26 from "./pages/low/2026/jenjangofl26";
 import Jenjangonl25 from "./pages/low/2025/jenjangonl25";
 import Jenjangofl25 from "./pages/low/2025/jenjangofl25";
 
@@ -70,7 +72,6 @@ function App() {
 
         <Route path="/PageTitle" element={<PageTitle />} />
         <Route path="/PageTitleNews" element={<PageTitleNews />} />
-
 
         {/* FAQ */}
         <Route path="/faq" element={<Faq />} />
@@ -104,8 +105,11 @@ function App() {
         <Route path="/kategori25" element={<Kategori25 />} />
         <Route path="/jenjangonl25" element={<Jenjangonl25 />} />
         <Route path="/jenjangofl25" element={<Jenjangofl25 />} />
+
+        <Route path="/kategori26" element={<Kategori26 />} />
+        <Route path="/jenjangonl26" element={<Jenjangonl26 />} />
+        <Route path="/jenjangofl26" element={<Jenjangofl26 />} />
         {/* List of Winners End*/}
-        
 
         {/* Link Gallery Foto */}
         <Route path="/G2021" element={<G2021 />} />
@@ -114,13 +118,13 @@ function App() {
         {/* End Link Gallery Foto */}
 
         {/* START REGISTRATION */}
-        <Route path="/homeregist" element={<HomeRegist/>} />
-        <Route path="/homeindo" element={<Homeindo/>} />
-        <Route path="/homeinter" element={<Homeinter/>} />
-        <Route path="/indo-online" element={<IndoOnline/>} />
-        <Route path="/indo-offline" element={<IndoOffline/>} />
-        <Route path="/inter-online" element={<InterOnline/>} />
-        <Route path="/inter-offline" element={<InterOffline/>} />
+        <Route path="/homeregist" element={<HomeRegist />} />
+        <Route path="/homeindo" element={<Homeindo />} />
+        <Route path="/homeinter" element={<Homeinter />} />
+        <Route path="/indo-online" element={<IndoOnline />} />
+        <Route path="/indo-offline" element={<IndoOffline />} />
+        <Route path="/inter-online" element={<InterOnline />} />
+        <Route path="/inter-offline" element={<InterOffline />} />
         <Route path="/thankyouinter" element={<Thankyouinter />} />
         {/* END REGISTRATION */}
 
