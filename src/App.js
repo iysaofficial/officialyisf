@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import DocumentWritter from "./pages/DocumentWritter";
 import Certificate from "./pages/Certificate";
+import Certtahun26 from "./pages/certificate/certtahun26";
 
 // FAQ
 import Faq from "./pages/faq/Faq";
@@ -129,6 +130,7 @@ function App() {
         {/* END REGISTRATION */}
 
         <Route path="/certificate" element={<Certificate />} />
+        <Route path="/certtahun26" element={<Certtahun26 />} />
         <Route path="/document_writter" element={<DocumentWritter />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
