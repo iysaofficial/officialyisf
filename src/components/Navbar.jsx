@@ -72,6 +72,16 @@ export default function Navbar() {
                     <li>
                       <a
                         className="dropdown-item"
+                        href="https://drive.google.com/file/d/1g5vSK3TtpYNhlpJiShiN2J8pp_LDu2Rx/view?usp=sharing"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Press Release 2026
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="dropdown-item"
                         href="https://drive.google.com/file/d/1kbi8I-yo7wxnWYMQxOLsOlw7GgpYfAHr/view?usp=sharing"
                         target="_blank"
                         rel="noreferrer"
