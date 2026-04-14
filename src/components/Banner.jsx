@@ -112,7 +112,7 @@ export default function Banner() {
                 </h1>
                 <div className="hero-btn">
                   <button className="btn disabled-btn" type="button" disabled>
-                    CLOSED REGIST! 
+                    Coming Soon 2027
                   </button>
                   {/* <a
                     class="btn"
