@@ -28,6 +28,7 @@ import V2021 from "./pages/video/V2021";
 import V2022 from "./pages/video/V2022";
 import V2023 from "./pages/video/V2023";
 import V2024 from "./pages/video/V2024";
+import V2026 from "./pages/video/V2026";
 // End Video
 
 // News
@@ -95,6 +96,7 @@ function App() {
         <Route path="/V2022" element={<V2022 />} />
         <Route path="/V2023" element={<V2023 />} />
         <Route path="/V2024" element={<V2024 />} />
+        <Route path="/V2026" element={<V2026 />} />
         {/* End Link Video */}
 
         {/* List of Winners start */}

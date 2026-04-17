@@ -253,6 +253,17 @@ export default function Navbar() {
                         <li>
                           <a
                             className="dropdown-item"
+                            href="https://drive.google.com/drive/folders/1M25nKoBudKlws-hqwbrAm0_mLL_qhUe4?usp=sharing"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            {" "}
+                            2026
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            className="dropdown-item"
                             href="https://drive.google.com/drive/folders/1RZ89JUpnYxj2z6wwM6Y5T8QPn66_6DXQ?usp=sharing"
                             target="_blank"
                             rel="noreferrer"
@@ -325,6 +336,12 @@ export default function Navbar() {
                         className="dropdown-menu"
                         aria-labelledby="dropdown0501"
                       >
+                        <li>
+                          <a className="dropdown-item" href="/V2026">
+                            {" "}
+                            2026
+                          </a>
+                        </li>
                         <li>
                           <a className="dropdown-item" href="/V2024">
                             {" "}
