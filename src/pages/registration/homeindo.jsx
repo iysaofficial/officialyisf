@@ -15,6 +15,7 @@ function HomeIndo() {
     setShowModal(true); // Tampilkan modal
   };
 
+  
   const handleAccept = () => {
     if (termsAccepted) {
       sessionStorage.setItem("termsAccepted", "true"); // Menyimpan status setuju di sessionStorage
