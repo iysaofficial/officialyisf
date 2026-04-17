@@ -72,6 +72,16 @@ export default function Navbar() {
                     <li>
                       <a
                         className="dropdown-item"
+                        href="https://drive.google.com/file/d/1g5vSK3TtpYNhlpJiShiN2J8pp_LDu2Rx/view?usp=sharing"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Press Release 2026
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="dropdown-item"
                         href="https://drive.google.com/file/d/1kbi8I-yo7wxnWYMQxOLsOlw7GgpYfAHr/view?usp=sharing"
                         target="_blank"
                         rel="noreferrer"
@@ -194,6 +204,11 @@ export default function Navbar() {
                   {/* <!-- Dropdown list --> */}
                   <ul className="dropdown-menu">
                     <li>
+                      <a className="dropdown-item" href="/certtahun26">
+                        Certificate supervisors 2026
+                      </a>
+                    </li>
+                    <li>
                       <a
                         className="dropdown-item"
                         href="https://drive.google.com/drive/folders/1amqbJ6xkLDjLk9-Cn9p4D7itnpqkBGGt?usp=sharing"
@@ -216,7 +231,7 @@ export default function Navbar() {
                       <i className="ti-angle-down"></i>
                     </span>
                   </a>
-                  
+
                   <ul className="dropdown-menu">
                     <li className="dropdown dropdown-submenu dropleft">
                       <a
