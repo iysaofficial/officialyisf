@@ -126,7 +126,7 @@ export default function Navbar() {
                     <li>
                       <a
                         className="dropdown-item"
-                        href="https://drive.google.com/drive/folders/1mj6_vWHoN3sPcA42bPFRT6Q6nv_m4Xkw?usp=sharing"
+                        href="https://drive.google.com/drive/folders/1Yui2uSLP0IseVbPiEZAbchRm3gX4HQFN?usp=sharing"
                         target="_blank"
                         rel="noreferrer"
                       >
