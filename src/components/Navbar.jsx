@@ -126,6 +126,16 @@ export default function Navbar() {
                     <li>
                       <a
                         className="dropdown-item"
+                        href="https://drive.google.com/drive/folders/1mj6_vWHoN3sPcA42bPFRT6Q6nv_m4Xkw?usp=sharing"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Curation 2026
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="dropdown-item"
                         href="https://drive.google.com/drive/folders/12BqqyZ7kUYGxz4_VYTPpFpNGmRrFou5s?usp=sharing"
                         target="_blank"
                         rel="noreferrer"
