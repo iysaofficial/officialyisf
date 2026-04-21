@@ -44,7 +44,7 @@ const Jenjangofl26 = () => {
             </a>
             <a
               className="btn m-2"
-              href="https://drive.google.com/file/d/14ZNa_BjWX0el25idgSjAy648Ms4aXvw5/view?usp=sharing"
+              href="https://drive.google.com/file/d/1olX7IJsMq6LkUk8QLyYI6hTsa7gdqE3Z/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
