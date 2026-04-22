@@ -58,6 +58,15 @@ export default function Footer() {
                   <ul>
                     <li>
                       <a
+                        href="https://drive.google.com/drive/folders/1M25nKoBudKlws-hqwbrAm0_mLL_qhUe4?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        2026
+                      </a>
+                    </li>
+                    <li>
+                      <a
                         href="https://drive.google.com/drive/folders/1RZ89JUpnYxj2z6wwM6Y5T8QPn66_6DXQ?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"

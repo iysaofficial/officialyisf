@@ -29,8 +29,8 @@ const Kategori25 = () => {
             </a> */}
             <a
               className="btn m-2"
-              href="https://drive.google.com/file/d/1TNx_XfX91CgyZWmrmRkqjW9oUZvQlkzt/view?usp=sharing"
-              target="_blank"
+              href="#!"
+              target=""
               rel="noreferrer"
             >
               SPECIAL AWARD OFFLINE

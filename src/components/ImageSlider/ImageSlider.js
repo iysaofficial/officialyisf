@@ -6,10 +6,10 @@ import 'swiper/css';
 
 const ImageSlider = () => {
   const images = [
-    '/images/slider/1-min.png',
-    '/images/slider/2-min.png',
-    '/images/slider/3-min.png',
-    '/images/slider/4-min.png',
+    'https://res.cloudinary.com/dtik1z1qd/image/upload/v1776831039/YNSF_YISF_2026-58_quguzi.jpg',
+    'https://res.cloudinary.com/dtik1z1qd/image/upload/v1776831035/YNSF_YISF_2026-112_ix9lja.jpg',
+    'https://res.cloudinary.com/dtik1z1qd/image/upload/v1776831034/YNSF_YISF_2026-343_h5q1sl.jpg',
+    'https://res.cloudinary.com/dtik1z1qd/image/upload/v1776831033/YNSF_YISF_2026-259_ucngzk.jpg',
     '/images/slider/5-min.png',
     '/images/slider/6-min.png',
     '/images/slider/7-min.png'
@@ -19,7 +19,7 @@ const ImageSlider = () => {
     <div style={{ padding: '5px 0', background: '#000', marginTop: '2rem', marginBottom: '2rem'}}>
       <Swiper
         modules={[Autoplay]}
-        spaceBetween={10}
+        spaceBetween={16}
         slidesPerView={'auto'}
         autoplay={{ delay: 3000 }}
         loop={true}
@@ -29,7 +29,8 @@ const ImageSlider = () => {
           <SwiperSlide
             key={i}
             style={{
-              width: '250px',
+              width: '400px',
+              maxWidth: '85vw',
               flexShrink: 0,
               borderRadius: '12px',
               overflow: 'hidden',
@@ -37,15 +38,14 @@ const ImageSlider = () => {
           >
             <img
               src={src}
-              alt={`Slide ${i}`}
+              alt={`Slide ${i + 1}`}
               style={{
                 width: '100%',
-                height: '180px',
+                height: '260px',
                 objectFit: 'cover',
                 borderRadius: '12px',
               }}
             />
-            {/* edited */}
           </SwiperSlide>
         ))}
       </Swiper>
