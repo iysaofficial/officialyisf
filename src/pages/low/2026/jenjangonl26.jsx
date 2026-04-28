@@ -20,7 +20,7 @@ const Jenjangonl26 = () => {
           <div className="hero-btn text-center">
             <a
               className="btn m-2"
-              href="https://drive.google.com/file/d/1VqAlwhmCV451Eq3LyijTZl1WWWyID-cN/view?usp=sharing"
+              href="https://drive.google.com/file/d/1oWlA03Yr2Z5dBbXTJHR2I2GtyEG6ySah/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
@@ -28,7 +28,7 @@ const Jenjangonl26 = () => {
             </a>
             <a
               className="btn m-2"
-              href="https://drive.google.com/file/d/16MSkBInY5WgQXk_6PmNCDSordtWXR6Jv/view?usp=sharing"
+              href="https://drive.google.com/file/d/1_AR1Gpbk3HhevliK2Uv_nqVMY_cNkjc8/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
@@ -44,7 +44,7 @@ const Jenjangonl26 = () => {
             </a> */}
             <a
               className="btn m-2"
-              href="https://drive.google.com/file/d/1bvwwxGcfTHfT2fQIrqi0l4-i_DAh2AdA/view?usp=sharing"
+              href="https://drive.google.com/file/d/1x8zaZa4IHPUT9qEktMqPO2kK1S_v_HVo/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
