@@ -17,7 +17,106 @@ class CompListNews extends Component {
           <h1 className="text-center mt-2 fw-bold">NEWS</h1>
           <div className="wrapper container mt-4">
             <div className="row">
+              <div className="card col-lg-3 m-3">
+                <img
+                  src="https://res.cloudinary.com/dtik1z1qd/image/upload/v1777434102/yisf_2_bfn9yp.png"
+                  className="card-img-top img-fluid p-2"
+                  alt="Gambar Berita 3"
+                ></img>
+                <div className="card-body">
+                  <h5 className="card-title">
+                    <a
+                      href="https://dki.kemenag.go.id/berita/mtsn-4-jakarta-raih-6-emas-di-youth-international-science-fair-2026-bukti-kualitas-riset-madrasah-berdaya-saing-global-zqgBZ"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      MTsN 4 Jakarta Raih 6 Emas di Youth International Science Fair 2026, Bukti Kualitas Riset Madrasah Berdaya Saing Global
+                    </a>
+                  </h5>
+                  <p className="card-text">
+                    Jakarta (Humas MTsN 4 Jakarta Selatan) — Madrasah Tsanawiyah Negeri (MTsN) 4 Jakarta Selatan kembali menorehkan prestasi gemilang di kancah internasional melalui ajang Youth International Science Fair (YISF)
+                  </p>
+
+                  <br></br>
+
+                  <h1 className="btn-primary btn">
+                    <a
+                      href="https://dki.kemenag.go.id/berita/mtsn-4-jakarta-raih-6-emas-di-youth-international-science-fair-2026-bukti-kualitas-riset-madrasah-berdaya-saing-global-zqgBZ"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Read more
+                    </a>
+                  </h1>
+                </div>
+              </div>
+              <div className="card col-lg-3 m-3">
+                <img
+                  src="https://res.cloudinary.com/dtik1z1qd/image/upload/v1777434102/yisf_1_yygpax.jpg"
+                  className="card-img-top img-fluid p-2"
+                  alt="Gambar Berita 3"
+                ></img>
+                <div className="card-body">
+                  <h5 className="card-title">
+                    <a
+                      href="https://www.upitra.ac.id/berita/read/upitra-borong-dua-emas-dalam-ajang-youth-international-science-fair-2026"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      UPITRA Borong Dua Emas Dalam Ajang Youth International Science Fair 2026
+                    </a>
+                  </h5>
+                  <p className="card-text">
+                    Prestasi membanggakan kembali diukir oleh mahasiswa Universitas Pignatelli Triputra (UPITRA). Delegasi dari Program Studi (Prodi) Sistem Informasi UPITRA...
+                  </p>
+
+                  <br></br>
+
+                  <h1 className="btn-primary btn">
+                    <a
+                      href="https://www.upitra.ac.id/berita/read/upitra-borong-dua-emas-dalam-ajang-youth-international-science-fair-2026"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Read more
+                    </a>
+                  </h1>
+                </div>
+              </div>
               {/*Card Awal*/}
+              <div className="card col-lg-3 m-3">
+                <img
+                  src="https://res.cloudinary.com/dtik1z1qd/image/upload/v1777434102/yisf1_gg0bke.webp"
+                  className="card-img-top img-fluid p-2"
+                  alt="Gambar Berita 3"
+                ></img>
+                <div className="card-body">
+                  <h5 className="card-title">
+                    <a
+                      href="https://kumparan.com/humas-and-humed-um-surakarta/ums-borong-emas-yisf-2026-lewat-inovasi-deteksi-postur-ai-27FrR8OfHxZ/4"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      UMS Borong Emas YISF 2026 Lewat Inovasi Deteksi Postur AI
+                    </a>
+                  </h5>
+                  <p className="card-text">
+                    SURAKARTA - Tim mahasiswa Universitas Muhammadiyah Surakarta (UMS) kembali menorehkan prestasi internasional melalui ajang Youth International Science Fair (YISF) 2026 yang diselenggarakan di UIN Sunan Kalijaga Yogyakarta pada.
+                  </p>
+
+                  <br></br>
+
+                  <h1 className="btn-primary btn">
+                    <a
+                      href="https://kumparan.com/humas-and-humed-um-surakarta/ums-borong-emas-yisf-2026-lewat-inovasi-deteksi-postur-ai-27FrR8OfHxZ/4"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Read more
+                    </a>
+                  </h1>
+                </div>
+              </div>
               <div className="card col-lg-3 m-3">
                 <img
                   src={gambar8}
