@@ -63,7 +63,7 @@ class CompListNews extends Component {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      UPITRA Borong Dua Emas Dalam Ajang Youth International Science Fair 2026
+                      UPITRA Borong Dua Emas Dalam Ajang Youth International Science Fair 2026.
                     </a>
                   </h5>
                   <p className="card-text">
@@ -97,7 +97,7 @@ class CompListNews extends Component {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      UMS Borong Emas YISF 2026 Lewat Inovasi Deteksi Postur AI
+                      UMS Borong Emas YISF 2026 Lewat Inovasi Deteksi Postur AI.
                     </a>
                   </h5>
                   <p className="card-text">
