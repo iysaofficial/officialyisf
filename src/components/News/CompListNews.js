@@ -11,7 +11,7 @@ import gambar8 from "../../Images/News/TimmahasiswaUnisma.jpg";
 
 class CompListNews extends Component {
   render() {
-    return (
+    return ( 
       <>
         <section className="newspage-section">
           <h1 className="text-center mt-2 fw-bold">NEWS</h1>
