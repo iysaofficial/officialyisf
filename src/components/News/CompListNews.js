@@ -30,11 +30,11 @@ class CompListNews extends Component {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      MTsN 4 Jakarta Raih 6 Emas di Youth International Science Fair 2026, Bukti Kualitas Riset Madrasah Berdaya Saing Global
+                      MTsN 4 Jakarta Raih 6 Emas di Youth International Science Fair 2026, Bukti Kualitas Riset Madrasah Berdaya Saing Global.
                     </a>
                   </h5>
                   <p className="card-text">
-                    Jakarta (Humas MTsN 4 Jakarta Selatan) — Madrasah Tsanawiyah Negeri (MTsN) 4 Jakarta Selatan kembali menorehkan prestasi gemilang di kancah internasional melalui ajang Youth International Science Fair (YISF)
+                    Jakarta (Humas MTsN 4 Jakarta Selatan) — Madrasah Tsanawiyah Negeri (MTsN) 4 Jakarta Selatan kembali menorehkan prestasi gemilang di kancah internasional melalui ajang Youth International Science Fair (YISF).
                   </p>
 
                   <br></br>
