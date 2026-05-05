@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../css/News.css";
 
 import gambar1 from "../../Images/News/PenelitiSMAMuhammadiyah.WebP";
 import gambar2 from "../../Images/News/GuruMuda.WebP";
@@ -39,7 +40,7 @@ class CompListNews extends Component {
 
                   <br></br>
 
-                  <h1 className="btn-primary btn">
+                  <span className="btn-primary btn">
                     <a
                       href="https://dki.kemenag.go.id/berita/mtsn-4-jakarta-raih-6-emas-di-youth-international-science-fair-2026-bukti-kualitas-riset-madrasah-berdaya-saing-global-zqgBZ"
                       target="_blank"
@@ -47,7 +48,7 @@ class CompListNews extends Component {
                     >
                       Read more
                     </a>
-                  </h1>
+                  </span>
                 </div>
               </div>
               <div className="card col-lg-3 m-3">
@@ -72,7 +73,7 @@ class CompListNews extends Component {
 
                   <br></br>
 
-                  <h1 className="btn-primary btn">
+                  <span className="btn-primary btn">
                     <a
                       href="https://www.upitra.ac.id/berita/read/upitra-borong-dua-emas-dalam-ajang-youth-international-science-fair-2026"
                       target="_blank"
@@ -80,7 +81,7 @@ class CompListNews extends Component {
                     >
                       Read more
                     </a>
-                  </h1>
+                  </span>
                 </div>
               </div>
               {/*Card Awal*/}
@@ -106,7 +107,7 @@ class CompListNews extends Component {
 
                   <br></br>
 
-                  <h1 className="btn-primary btn">
+                  <span className="btn-primary btn">
                     <a
                       href="https://kumparan.com/humas-and-humed-um-surakarta/ums-borong-emas-yisf-2026-lewat-inovasi-deteksi-postur-ai-27FrR8OfHxZ/4"
                       target="_blank"
@@ -114,7 +115,7 @@ class CompListNews extends Component {
                     >
                       Read more
                     </a>
-                  </h1>
+                  </span>
                 </div>
               </div>
               <div className="card col-lg-3 m-3">
@@ -145,7 +146,7 @@ class CompListNews extends Component {
 
                   <br></br>
 
-                  <h1 className="btn-primary btn">
+                  <span className="btn-primary btn">
                     <a
                       href="https://timesindonesia.co.id/pendidikan/528337/mahasiswa-unisma-malang-borong-prestasi-di-ajang-sains-internasional-yisf-2025"
                       target="_blank"
@@ -153,7 +154,7 @@ class CompListNews extends Component {
                     >
                       Read more
                     </a>
-                  </h1>
+                  </span>
                 </div>
               </div>
               {/*Card Akhir*/}
@@ -184,7 +185,7 @@ class CompListNews extends Component {
 
                   <br></br>
 
-                  <h1 className="btn-primary btn">
+                  <span className="btn-primary btn">
                     <a
                       href="https://jatim.antaranews.com/berita/887401/tim-sman-3-taruna-angkasa-raih-dua-medali-emas-di-yisf-2025"
                       target="_blank"
@@ -192,7 +193,7 @@ class CompListNews extends Component {
                     >
                       Read more
                     </a>
-                  </h1>
+                  </span>
                 </div>
               </div>
               {/*Card Akhir*/}
@@ -221,9 +222,9 @@ class CompListNews extends Component {
 
                   <br></br>
 
-                  <h1 className="btn-primary btn">
+                  <span className="btn-primary btn">
                     <a href="/news6">Read more</a>
-                  </h1>
+                  </span>
                 </div>
               </div>
               {/* List 3 akhir */}
@@ -251,9 +252,9 @@ class CompListNews extends Component {
 
                   <br></br>
 
-                  <h1 className="btn-primary btn">
+                  <span className="btn-primary btn">
                     <a href="/news7">Read more</a>
-                  </h1>
+                  </span>
                 </div>
               </div>
               {/* List 4 akhir */}
@@ -277,9 +278,9 @@ class CompListNews extends Component {
                     succeeded in making achievements at an international event
                   </p>
 
-                  <h1 className="btn-primary btn">
+                  <span className="btn-primary btn">
                     <a href="/news1">Read more</a>
-                  </h1>
+                  </span>
                 </div>
               </div>
               {/* list 1 akhir */}
@@ -303,9 +304,9 @@ class CompListNews extends Component {
                     discussion space for teachers.
                   </p>
 
-                  <h1 className="btn-primary btn">
+                  <span className="btn-primary btn">
                     <a href="/news2">Read more</a>
-                  </h1>
+                  </span>
                 </div>
               </div>
               {/* List 2 akhir */}
@@ -329,9 +330,9 @@ class CompListNews extends Component {
                     International Science Fair (YISF).
                   </p>
 
-                  <h1 className="btn-primary btn">
+                  <span className="btn-primary btn">
                     <a href="/news3">Read more</a>
-                  </h1>
+                  </span>
                 </div>
               </div>
               {/*Card Akhir*/}
@@ -355,9 +356,9 @@ class CompListNews extends Component {
                     (TE'18). Joined the Legi Techno Team.
                   </p>
 
-                  <h1 className="btn-primary btn">
+                  <span className="btn-primary btn">
                     <a href="/news4">Read more</a>
-                  </h1>
+                  </span>
                 </div>
               </div>
             </div>

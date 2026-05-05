@@ -122,7 +122,7 @@ export default function Footer() {
                     <li>
                       <a href="/contact">Contact Us</a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a
                         href="https://drive.google.com/file/d/1yFRZqNUSlNo8V7xbDdS0A_4RPXgkcD3-/view?usp=sharing"
                         target="_blank"
@@ -130,7 +130,7 @@ export default function Footer() {
                       >
                         Guide Book
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
