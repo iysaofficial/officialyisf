@@ -272,8 +272,6 @@ export default function Navbar() {
                           <a
                             className="dropdown-item"
                             href="https://drive.google.com/drive/folders/1M25nKoBudKlws-hqwbrAm0_mLL_qhUe4?usp=sharing"
-                            target="_blank"
-                            rel="noreferrer"
                           >
                             {" "}
                             2026
@@ -283,8 +281,6 @@ export default function Navbar() {
                           <a
                             className="dropdown-item"
                             href="https://drive.google.com/drive/folders/1RZ89JUpnYxj2z6wwM6Y5T8QPn66_6DXQ?usp=sharing"
-                            target="_blank"
-                            rel="noreferrer"
                           >
                             {" "}
                             2025
@@ -294,8 +290,6 @@ export default function Navbar() {
                           <a
                             className="dropdown-item"
                             href="https://drive.google.com/drive/folders/1XI9bn_oR9Q0yD_0cueLkPsR6fRdF0NRy?usp=sharing"
-                            target="_blank"
-                            rel="noreferrer"
                           >
                             {" "}
                             2024
@@ -305,8 +299,6 @@ export default function Navbar() {
                           <a
                             className="dropdown-item"
                             href="https://drive.google.com/drive/folders/1DBhEkKvKIb85-D-7h3dN6xvymlDRYAFv?usp=drive_link"
-                            target="_blank"
-                            rel="noreferrer"
                           >
                             {" "}
                             2023
@@ -316,8 +308,6 @@ export default function Navbar() {
                           <a
                             className="dropdown-item"
                             href="https://drive.google.com/drive/folders/1tDJHRUN6k0AQX_cG01zNlPUZXPrK5pRN?usp=drive_link"
-                            target="_blank"
-                            rel="noreferrer"
                           >
                             {" "}
                             2022
@@ -327,8 +317,6 @@ export default function Navbar() {
                           <a
                             className="dropdown-item"
                             href="https://drive.google.com/drive/folders/1PPIfqv01uc_aCCpWO-nzwIF1rq9_Bvk9?usp=drive_link"
-                            target="_blank"
-                            rel="noreferrer"
                           >
                             {" "}
                             2021
