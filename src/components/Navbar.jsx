@@ -247,18 +247,26 @@ export default function Navbar() {
                       <a
                         className="dropdown-item dropdown-toggle"
                         href="#!"
-                        id="dropdown0501"
+                        id="dropdownPhoto"
                         role="button"
                         data-toggle="dropdown"
                         aria-haspopup="true"
                         aria-expanded="false"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          const menu = e.currentTarget.nextElementSibling;
+                          if (menu) {
+                            menu.classList.toggle('show');
+                          }
+                        }}
                       >
                         Photo
                       </a>
 
                       <ul
                         className="dropdown-menu"
-                        aria-labelledby="dropdown0501"
+                        aria-labelledby="dropdownPhoto"
                       >
                         <li>
                           <a
@@ -333,18 +341,26 @@ export default function Navbar() {
                       <a
                         className="dropdown-item dropdown-toggle"
                         href="#!"
-                        id="dropdown0501"
+                        id="dropdownVideo"
                         role="button"
                         data-toggle="dropdown"
                         aria-haspopup="true"
                         aria-expanded="false"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          const menu = e.currentTarget.nextElementSibling;
+                          if (menu) {
+                            menu.classList.toggle('show');
+                          }
+                        }}
                       >
                         Video
                       </a>
 
                       <ul
                         className="dropdown-menu"
-                        aria-labelledby="dropdown0501"
+                        aria-labelledby="dropdownVideo"
                       >
                         <li>
                           <a className="dropdown-item" href="/V2026">
