@@ -13,7 +13,7 @@ export default function Supported() {
                                 <img className="" src="images/logo/iysa.png" alt=""/>
                             </div>
                             <div className="logo-teknikundip col-lg-2 mt-5 mt-lg-0 text-center">
-                                <img className="" src="https://res.cloudinary.com/dtik1z1qd/image/upload/v1770720880/Logo_UIN_Sunan_Kalijaga_rl5l5b.png" alt=""/>
+                                <img className="" src="https://ik.imagekit.io/iysaimg/ASSET%20IYSA/Logo_UIN_Sunan_Kalijaga_rl5l5b.png?updatedAt=1781963568302" alt=""/>
                             </div>
                             {/* <div className="Logo-Support col-lg-4 col-md-4 mt-5 mt-lg-0">
                                 <img className="" src="images/logo/buca.png" alt=""/>
@@ -37,7 +37,7 @@ export default function Supported() {
                                 <img className="" src="images/logo/NWERA.png" alt=""/>
                             </div> */}
                             <div className="Logo-newera col-lg-6 col-md-4 mt-5 mt-lg-0">
-                                <img className="" src="https://res.cloudinary.com/dtik1z1qd/image/upload/v1770722053/imsef_kuoxjp.png" alt=""/>
+                                <img className="" src="https://ik.imagekit.io/iysaimg/ASSET%20IYSA/imsef_kuoxjp.png?updatedAt=1781963572441" alt=""/>
                             </div>
                         </div>
                     </div>
