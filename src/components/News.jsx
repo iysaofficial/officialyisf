@@ -15,14 +15,14 @@ export default function News() {
                             <div class="testimonial-slider owl-carousel owl-theme">
                                 
                                 <NewsList 
-                                    img = "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/yisf_2_bfn9yp.png?updatedAt=1781963590631"
+                                    img = "/images/news/yisf_2_bfn9yp.png"
                                     title = "MTsN 4 Jakarta Raih 6 Emas di Youth International Science Fair 2026, Bukti Kualitas Riset Madrasah Berdaya Saing Global."
                                     desc = "Jakarta (Humas MTsN 4 Jakarta Selatan) — Madrasah Tsanawiyah Negeri (MTsN) 4 Jakarta Selatan kembali menorehkan prestasi gemilang di kancah internasional melalui ajang Youth International Science Fair (YISF)."
                                     time = "Event 2026"
                                     link = "https://dki.kemenag.go.id/berita/mtsn-4-jakarta-raih-6-emas-di-youth-international-science-fair-2026-bukti-kualitas-riset-madrasah-berdaya-saing-global-zqgBZ"
                                 />
                                 <NewsList 
-                                    img = "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/yisf_1_yygpax.jpg?updatedAt=1781963583118"
+                                    img = "/images/news/yisf_1_yygpax.jpg"
                                     title = "UPITRA Borong Dua Emas Dalam Ajang Youth International Science Fair 2026."
                                     desc = "Prestasi membanggakan kembali diukir oleh mahasiswa Universitas Pignatelli Triputra (UPITRA). Delegasi dari Program Studi (Prodi) Sistem Informasi UPITRA..."
                                     time = "Event 2026"

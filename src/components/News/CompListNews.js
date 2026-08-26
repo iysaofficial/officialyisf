@@ -20,7 +20,7 @@ class CompListNews extends Component {
             <div className="row">
               <div className="card col-lg-3 m-3">
                 <img
-                  src="https://ik.imagekit.io/iysaimg/ASSET%20IYSA/yisf_2_bfn9yp.png?updatedAt=1781963590631"
+                  src="/images/news/yisf_2_bfn9yp.png"
                   className="card-img-top img-fluid p-2"
                   alt="Gambar Berita 3"
                 ></img>
@@ -53,7 +53,7 @@ class CompListNews extends Component {
               </div>
               <div className="card col-lg-3 m-3">
                 <img
-                  src="https://ik.imagekit.io/iysaimg/ASSET%20IYSA/yisf_1_yygpax.jpg?updatedAt=1781963583118"
+                  src="/images/news/yisf_1_yygpax.jpg"
                   className="card-img-top img-fluid p-2"
                   alt="Gambar Berita 3"
                 ></img>
@@ -87,7 +87,7 @@ class CompListNews extends Component {
               {/*Card Awal*/}
               <div className="card col-lg-3 m-3">
                 <img
-                  src="https://ik.imagekit.io/iysaimg/ASSET%20IYSA/yisf1_gg0bke.webp?updatedAt=1781963586410"
+                  src="/images/news/yisf1_gg0bke.webp"
                   className="card-img-top img-fluid p-2"
                   alt="Gambar Berita 3"
                 ></img>
