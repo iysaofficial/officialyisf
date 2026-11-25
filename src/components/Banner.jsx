@@ -1,6 +1,11 @@
 import "./css/Banner.css";
+import { usePendaftaran } from "../lib/pendaftaran";
 
 export default function Banner() {
+  // Tombol hero mengikuti dasbor IYSA: Register Now hanya saat togel Pendaftaran
+  // edisi menyala; Guide Book + Terms hanya bila guidebook sudah diterbitkan.
+  const { memuat, identitas, keadaan, guidebook } = usePendaftaran();
+  const tahun = identitas?.tahun ?? "";
   return (
     <>
       <div>
@@ -111,9 +116,25 @@ export default function Banner() {
                   Youth International Science Fair
                 </h1>
                 <div className="hero-btn">
-                  <button className="btn disabled-btn" type="button" disabled>
-                    Coming Soon 2027
-                  </button>
+                  {memuat ? null : keadaan === "buka" ? (
+                    <a className="btn" href="/homeregist">
+                      Register Now
+                    </a>
+                  ) : (
+                    <button className="btn disabled-btn" type="button" disabled>
+                      Coming Soon{tahun ? ` ${tahun}` : ""}
+                    </button>
+                  )}
+                  {guidebook && (
+                    <>
+                      <a className="btn" href={guidebook.url} target="_blank" rel="noopener noreferrer" data-iysa-panduan="YISF">
+                        Guide Book
+                      </a>
+                      <a className="btn" href={guidebook.url} target="_blank" rel="noopener noreferrer" data-iysa-panduan="YISF" data-iysa-panduan-jenis="tnc">
+                        Terms and Conditions
+                      </a>
+                    </>
+                  )}
                   {/* <a
                     class="btn"
                     href="https://drive.google.com/file/d/1yFRZqNUSlNo8V7xbDdS0A_4RPXgkcD3-/view?usp=sharing"

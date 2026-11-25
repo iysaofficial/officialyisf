@@ -1,4 +1,8 @@
+import { usePendaftaran } from "../lib/pendaftaran";
+
 export default function Navbar() {
+  // Registration + Guide Book edisi berjalan mengikuti dasbor IYSA.
+  const { identitas, keadaan, guidebook } = usePendaftaran();
   return (
     <>
       <div>
@@ -195,6 +199,35 @@ export default function Navbar() {
                     </li>
                   </ul>
                 </li>
+                {keadaan === "buka" && (
+                  <li className="nav-item">
+                    <a className="nav-link" href="/homeregist">
+                      Registration
+                    </a>
+                  </li>
+                )}
+                {guidebook && (
+                  <li className="nav-item dropdown">
+                    <a className="nav-link dropdown-toggle" href="#!" data-toggle="dropdown">
+                      Guide Book
+                      <span>
+                        <i className="ti-angle-down"></i>
+                      </span>
+                    </a>
+                    <ul className="dropdown-menu">
+                      <li>
+                        <a className="dropdown-item" href={guidebook.url} target="_blank" rel="noreferrer" data-iysa-panduan="YISF">
+                          Guide Book {identitas?.tahun ?? ""}
+                        </a>
+                      </li>
+                      <li>
+                        <a className="dropdown-item" href={guidebook.url} target="_blank" rel="noreferrer" data-iysa-panduan="YISF" data-iysa-panduan-jenis="tnc">
+                          Terms &amp; Conditions
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                )}
                 <li className="nav-item @@low">
                   <a className="nav-link" href="/lowtahun">
                     List of Winners

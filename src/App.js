@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -47,12 +47,6 @@ import Kategori24 from "./pages/low/2024/kategori24";
 import Jenjangofl24 from "./pages/low/2024/jenjangofl24";
 import Jenjangonl24 from "./pages/low/2024/jenjangonl24";
 import HomeRegist from "./pages/registration/homeregist";
-import Homeindo from "./pages/registration/homeindo";
-import Homeinter from "./pages/registration/homeinter";
-import IndoOnline from "./pages/registration/indo-online";
-import IndoOffline from "./pages/registration/indo-offline";
-import InterOnline from "./pages/registration/inter-online";
-import InterOffline from "./pages/registration/inter-offline";
 import Thankyouinter from "./pages/registration/thankyouinter";
 import Kategori25 from "./pages/low/2025/kategori25";
 import Kategori26 from "./pages/low/2026/kategori26";
@@ -122,12 +116,13 @@ function App() {
 
         {/* START REGISTRATION */}
         <Route path="/homeregist" element={<HomeRegist />} />
-        <Route path="/homeindo" element={<Homeindo />} />
-        <Route path="/homeinter" element={<Homeinter />} />
-        <Route path="/indo-online" element={<IndoOnline />} />
-        <Route path="/indo-offline" element={<IndoOffline />} />
-        <Route path="/inter-online" element={<InterOnline />} />
-        <Route path="/inter-offline" element={<InterOffline />} />
+        {/* Formulir Google Apps Script lama → formulir dasbor IYSA (daftar.js). */}
+        <Route path="/homeindo" element={<Navigate to="/homeregist" replace />} />
+        <Route path="/homeinter" element={<Navigate to="/homeregist" replace />} />
+        <Route path="/indo-online" element={<Navigate to="/homeregist" replace />} />
+        <Route path="/indo-offline" element={<Navigate to="/homeregist" replace />} />
+        <Route path="/inter-online" element={<Navigate to="/homeregist" replace />} />
+        <Route path="/inter-offline" element={<Navigate to="/homeregist" replace />} />
         <Route path="/thankyouinter" element={<Thankyouinter />} />
         {/* END REGISTRATION */}
 

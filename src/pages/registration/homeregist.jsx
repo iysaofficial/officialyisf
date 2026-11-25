@@ -1,8 +1,23 @@
-// import Link from "next/link";
+import { useEffect } from "react";
 import PageTitle from "../../components/pagetitle/PageTitle";
 import "./registration.css";
+import { usePendaftaran, pasangFormulir, formatTanggal } from "../../lib/pendaftaran";
 
+/**
+ * Halaman pendaftaran YISF.
+ *
+ * Saat togel di dasbor IYSA menyala, formulir pendaftaran dasbor (daftar.js)
+ * dipasang di sini — tim, pembimbing, dan tagihan langsung masuk dasbor.
+ * Saat mati, yang tampil keterangan, bukan tombol mati.
+ */
 function HomeRegist() {
+  const { memuat, identitas, keadaan } = usePendaftaran();
+  const tahun = identitas?.tahun ?? "";
+
+  useEffect(() => {
+    if (keadaan === "buka") pasangFormulir();
+  }, [keadaan]);
+
   return (
     <>
       <PageTitle
@@ -19,24 +34,28 @@ function HomeRegist() {
                 REGISTRATION FORM
               </h1>
               <h3 className="mx-auto mt-5 mb-2 text-sm md:text-lg lg:text-2xl">
-                Choose Your Citizenship Category for Registration YISF 2026
+                {keadaan === "buka" ? `Registration for YISF ${tahun} is open` : `Registration YISF ${tahun}`}
               </h3>
             </div>
           </div>
-          <div className="link-web mx-auto text-center">
-            <a
-              href="/homeindo"
-              className="btn btn-custom text-center me-lg-5 m-2"
-            >
-              INDONESIAN CITIZEN<i className="fa-solid fa-earth-americas"></i>
-            </a>
-            <a
-              href="/homeinter"
-              className="btn btn-custom text-center me-lg-5 m-2"
-            >
-              INTERNATIONAL CITIZEN{" "}
-              <i className="fa-solid fa-earth-americas"></i>
-            </a>
+          <div className="link-web mx-auto text-center m-5">
+            {memuat ? (
+              <p className="m-2">Loading registration information…</p>
+            ) : keadaan === "buka" ? (
+              <div
+                data-iysa-daftar="yisf"
+                data-iysa-bahasa="en"
+                style={{ maxWidth: "44rem", margin: "0 auto", textAlign: "left" }}
+              />
+            ) : (
+              <p className="mx-auto text-center m-2">
+                {keadaan === "belum"
+                  ? `Registration is not open yet${identitas?.pendaftaran_buka ? ` — it opens on ${formatTanggal(identitas.pendaftaran_buka)}` : ""}. Please check back later.`
+                  : keadaan === "tutup"
+                  ? "Registration for this edition is closed. Follow Instagram @iysa_official for the next edition."
+                  : "Registration information could not be loaded. Please try again in a moment."}
+              </p>
+            )}
           </div>
         </div>
       </section>
